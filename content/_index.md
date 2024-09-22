@@ -31,7 +31,7 @@ sections:
           position: center
           parallax: false
   - block: slider
-    content:
+    content:  
       slides:
         - title: 👋 Welcome to the group
           content: Take a look at what we're working on...
@@ -40,7 +40,7 @@ sections:
             image:
               # Specify an image from `assets/media/`
               # or delete the image section to remove it
-              filename: coders.jpg
+              filename:
               filters:
                 brightness: 0.7
             position: right
@@ -52,7 +52,7 @@ sections:
             image:
               # Specify an image from `assets/media/`
               # or delete the image section to remove it
-              filename: contact.jpg
+              filename:
               filters:
                 brightness: 0.7
             position: center
@@ -64,7 +64,7 @@ sections:
             image:
               # Specify an image from `assets/media/`
               # or delete the image section to remove it
-              filename: welcome.jpg
+              filename:
               filters:
                 brightness: 0.5
             position: center
@@ -80,7 +80,7 @@ sections:
       # Make the slides full screen within the browser window?
       is_fullscreen: true
       # Automatically transition through slides?
-      loop: false
+      loop: true
       # Duration of transition between slides (in ms)
       interval: 2000
   - block: collection
