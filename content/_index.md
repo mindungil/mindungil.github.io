@@ -33,28 +33,16 @@ sections:
   - block: slider
     content:  
       slides:
-        - title: 👋 Welcome to the group
-          content: Take a look at what we're working on...
+        - title: 👋 Welcome to the Photofolio
+          content: Take a look at what i'm working on...
           align: center
           background:
-            image:
-              # Specify an image from `assets/media/`
-              # or delete the image section to remove it
-              filename:
-              filters:
-                brightness: 0.7
             position: right
             color: '#666'
         - title: Lunch & Learn ☕️
           content: 'Share your knowledge with the group and explore exciting new topics together!'
           align: left
           background:
-            image:
-              # Specify an image from `assets/media/`
-              # or delete the image section to remove it
-              filename:
-              filters:
-                brightness: 0.7
             position: center
             color: '#555'
         - title: World-Class Semiconductor Lab
@@ -62,11 +50,6 @@ sections:
           align: right
           background:
             image:
-              # Specify an image from `assets/media/`
-              # or delete the image section to remove it
-              filename:
-              filters:
-                brightness: 0.5
             position: center
             color: '#333'
           link:
