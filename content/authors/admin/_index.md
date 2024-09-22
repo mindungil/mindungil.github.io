@@ -3,7 +3,7 @@
 title: GIL MINJUN 
 
 # Name pronunciation (optional)
-name_pronunciation: 
+name_pronunciation: None
 
 # Full name (for SEO)
 first_name: MINJUN
@@ -48,7 +48,7 @@ education:
     institution: JBNU University
     date_start: 2021-03-02
     date_end: 
-    summary: |
+    summary:
       JBNU is University I'm attendding
     button:
       text: 'Read Thesis'
