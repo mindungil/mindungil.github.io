@@ -30,7 +30,7 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: slider
+  - block: slides
     content:  
       slides:
         - title: 👋 Welcome to the Photofolio
@@ -49,7 +49,6 @@ sections:
           content: 'Just opened last month!'
           align: right
           background:
-            image:
             position: center
             color: '#333'
           link:
