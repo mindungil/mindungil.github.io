@@ -3,7 +3,7 @@
 title: GIL MINJUN 
 
 # Name pronunciation (optional)
-name_pronunciation: None
+name_pronunciation: 길민준
 
 # Full name (for SEO)
 first_name: MINJUN
