@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "mindungil Blog"
+title: "길민준의 포토폴리오"
 date: 2024-09-19
 type: landing
 

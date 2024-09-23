@@ -1,9 +1,9 @@
 ---
 # Display name
-title: GIL MINJUN 
+title: 길민준
 
 # Name pronunciation (optional)
-name_pronunciation: 길민준
+name_pronunciation: GIL MINJUN
 
 # Full name (for SEO)
 first_name: MINJUN
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Developer
+role: 개발자
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -39,17 +39,17 @@ profiles:
     url: https://github.com/mindungil
 
 interests:
-  - Artificial Intelligence
-  - Backend Programing
-  - Machine learning (ML)
+  - 인공지능 (AI)
+  - 백엔드 프로그래밍
+  - 머신러닝 (ML)
 
 education:
-  - area: Computer-Artificial Intelligence
+  - area: 컴퓨터공학부
     institution: JBNU University
     date_start: 2021-03-02
     date_end: 
     summary: |
-      JBNU is University I'm attendding
+      전북대학교 컴퓨터공학부에 재학 중 입니다.
     button:
       text: 'Read Thesis'
       url: 'https://www.jbnu.ac.kr/'
@@ -81,7 +81,7 @@ education:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: 주 언어
     items:
       - name: Python
         description: ''
@@ -95,30 +95,28 @@ skills:
         description: ''
         percent: 70
         icon: circle-stack
-  - name: Hobbies
+  - name: 취미
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: running
+      - name: 런닝
         description: ''
         percent: 50
         icon: person-simple-walk
-      - name: game
+      - name: 게임
         description: ''
         percent: 40
         icon: computer
-      - name: trip
+      - name: 여행
         description: ''
         percent: 40
         icon: camera
 
 languages:
-  - name: Korean
+  - name: 한국어
     percent: 100
-  - name: English
+  - name: 영어
     percent: 60
-  - name: Chinese
-    percent: 2
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -154,6 +152,6 @@ languages:
 
 ## About Me
 
-Hello, my Name is MINJUN GIL.
-I'm studing hard Cumputer Programing.
-And i'm interested in everyting cool.
+안녕하세요, 전북대학교 컴퓨터공학부에 재학중인 길민준 입니ㅏㄷ.
+컴퓨터 프로그래밍을 열심히 공부하고 있습니다.
+재밌는 모든 것들에 관심이 있습니다.
