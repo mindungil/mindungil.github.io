@@ -78,7 +78,7 @@ sections:
           position: center
           color: '#000'
 
-      - title: 다섯 번 째 타이틀틀
+      - title: 다섯 번 째 타이틀
         content: 다섯 번 째
         align: center
         background:
