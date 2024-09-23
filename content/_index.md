@@ -30,7 +30,6 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: slides
     content:  
       slides:
         - title: 👋 Welcome to the Photofolio
