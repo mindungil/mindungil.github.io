@@ -38,6 +38,14 @@ sections:
           background:
             position: right
             color: '#666'
+            image:
+            # Add your image background to `assets/media/`.
+              filename: stacked-peaks.svg
+              filters:
+              brightness: 1.0
+              size: cover
+              position: center
+              parallax: false  
         - title: Lunch & Learn ☕️
           content: 'Share your knowledge with the group and explore exciting new topics together!'
           align: left
