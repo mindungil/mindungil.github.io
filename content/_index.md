@@ -40,7 +40,7 @@ sections:
             color: '#666'
             image:
             # Add your image background to `assets/media/`.
-              filename: stacked-peaks.svg
+              filename: cumputer.jpg
               filters:
               brightness: 1.0
               size: cover
