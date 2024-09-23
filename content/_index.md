@@ -41,7 +41,8 @@ sections:
             color: '#666'
             image:
             # Add your image background to `assets/media/`.
-              filename: cumputer.jpg # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@cgower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Gower</a>
+              filename: cumputer.jpg 
+              # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@cgower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Gower</a>
               filters:
               brightness: 1.0
               size: cover
