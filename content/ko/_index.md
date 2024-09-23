@@ -31,73 +31,50 @@ sections:
           position: center
           parallax: false
 
-  - block: slider
+  -block: slider
     content:
       slides:
-      - title: 길민준의 포토폴리오 🙌
-        content: 공부 분야 및 관심사 등 🎯
-        align: center
-        background:
-          image:
-            filename: cumputer.jpg # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@cgower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Gower</a>
-            filters:
-              brightness: 0.6
-          position: center
-          color: '#000'
-
-      - title: 두 번째 타이틀
-        content: 두 번째
-        align: center
-        background:
-          image:
-            filename: cumputer.jpg
-            filters:
-              brightness: 0.6
-          position: center
-          color: '#000'
-
-      - title: 세 번째 타이틀
-        content: 세 번째
-        align: center
-        background:
-          image:
-            filename: cumputer.jpg
-            filters:
-              brightness: 0.6
-          position: center
-          color: '#000'
-
-      - title: 네 번째 타이틀
-        content: 네 번째
-        align: center
-        background:
-          image:
-            filename: cumputer.jpg
-            filters:
-              brightness: 0.6
-          position: center
-          color: '#000'
-
-      - title: 다섯 번 째 타이틀
-        content: 다섯 번 째
-        align: center
-        background:
-          image:
-            filename: cumputer.jpg
-            filters:
-              brightness: 0.6
-          position: center
-          color: '#000'
-
+        - title: 👋 Welcome to the my Photofolio
+          content: Take a look at what i'm working on.🎯
+          align: center
+          background:
+            position: right
+            color: '#666'
+            image:
+            # Add your image background to `assets/media/`.
+              filename: cumputer.jpg 
+              # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@cgower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Gower</a>
+              filters:
+              brightness: 1.0
+              size: cover
+              position: center
+              parallax: false  
+        - title: Lunch & Learn ☕️
+          content: 'Share your knowledge with the group and explore exciting new topics together!'
+          align: left
+          background:
+            position: center
+            color: '#555'
+        - title: World-Class Semiconductor Lab
+          content: 'Just opened last month!'
+          align: right
+          background:
+            position: center
+            color: '#333'
+          link:
+            icon: graduation-cap
+            icon_pack: fas
+            text: Join Us
+            url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '350px'
-      slide_width: '100px'
-      is_fullscreen: false
+      slide_height: ''
+      # Make the slides full screen within the browser window?
+      is_fullscreen: true
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
-      interval: 3000
+      interval: 2000
 
   - block: collection
     id: papers
