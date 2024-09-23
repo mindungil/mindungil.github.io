@@ -30,8 +30,8 @@ sections:
           size: cover
           position: center
           parallax: false
-    -block: collection
-    content:  
+    -block: slider
+    content:
       slides:
         - title: 👋 Welcome to the Photofolio
           content: Take a look at what i'm working on...

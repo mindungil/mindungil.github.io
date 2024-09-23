@@ -14,7 +14,7 @@ baseURL: 'https://mindung/'
 
 defaultContentLanguage: en
 hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguageInSubdir: true #지구본
 removePathAccents: true
 
 ############################
