@@ -78,17 +78,17 @@ sections:
   - block: collection
     id: study
     content:
-      title: 공부 예정
+      title: 공부 예정 🐱‍💻
       filters:
         folders:
           - study 
         featured_only: true
     design:
-      view: article-grid
+      view: cta-card
       columns: 2
   - block: collection
     content:
-      title: 현재 공부
+      title: 현재 공부 🐱‍💻
       text: ""
       filters:
         folders:

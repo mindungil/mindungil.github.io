@@ -78,7 +78,7 @@ sections:
   - block: collection
     id: study
     content:
-      title: Studying later
+      title: Studying later 🐱‍💻
       filters:
         folders:
           - study
@@ -88,7 +88,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Study
+      title: Recent Study 🐱‍💻
       text: ""
       filters:
         folders:

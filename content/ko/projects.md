@@ -1,6 +1,6 @@
 ---
 title: 'Projects'
-date: 2024-05-19
+date: 2024-09-24
 type: landing
 
 design:
@@ -11,13 +11,13 @@ design:
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: 프로젝트   💻
+      text: 프로젝트를 통해 실력을 쌓는 중 입니다. 많은 관심 부탁드립니다.
       filters:
         folders:
           - project
     design:
       view: article-grid
       fill_image: false
-      columns: 3
+      columns: 6
 ---
