@@ -78,17 +78,17 @@ sections:
   - block: collection
     id: study
     content:
-      title: Featured Publications
+      title: 공부 예정
       filters:
         folders:
-          - study
+          - study 
         featured_only: true
     design:
       view: article-grid
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: 현재 공부
       text: ""
       filters:
         folders:

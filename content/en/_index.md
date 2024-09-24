@@ -74,10 +74,11 @@ sections:
 #      loop: true
 #      # Duration of transition between slides (in ms)
 #      interval: 2000
+  
   - block: collection
-    id: papers
+    id: study
     content:
-      title: Featured Publications
+      title: Studying later
       filters:
         folders:
           - study
@@ -87,7 +88,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Publications
+      title: Recent Study
       text: ""
       filters:
         folders:
