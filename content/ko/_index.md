@@ -84,8 +84,9 @@ sections:
           - study 
         featured_only: true
     design:
-      view: card
-      columns: 2
+      view: article-grid
+      fill_image: false
+      columns: 6
   - block: collection
     content:
       title: 현재 공부 🐱‍💻
