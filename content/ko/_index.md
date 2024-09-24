@@ -84,7 +84,7 @@ sections:
           - study 
         featured_only: true
     design:
-      view: cta-card
+      view: card
       columns: 2
   - block: collection
     content:
@@ -95,7 +95,7 @@ sections:
           - study
         exclude_featured: false
     design:
-      view: citation
+      view: card
   - block: collection
     id: talks
     content:
