@@ -30,50 +30,50 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: slider
-    content:
-      slides:
-        - title: 👋 Welcome to the Photofolio
-          content: Take a look at what i'm working on...
-          align: center
-          background:
-            position: right
-            color: '#666'
-            image:
-              # Add your image background to `assets/media/`.
-              filename: cumputer.jpg
-              # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@cgower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Gower</a>
-              filters:
-              brightness: 1.0
-              size: cover
-              position: center
-              parallax: false
-        - title: Lunch & Learn ☕️
-          content: 'Share your knowledge with the group and explore exciting new topics together!'
-          align: left
-          background:
-            position: center
-            color: '#555'
-        - title: World-Class Semiconductor Lab
-          content: 'Just opened last month!'
-          align: right
-          background:
-            position: center
-            color: '#333'
-          link:
-            icon: graduation-cap
-            icon_pack: fas
-            text: Join Us
-            url: ../contact/
-    design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: ''
-      # Make the slides full screen within the browser window?
-      is_fullscreen: true
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 2000
+#  - block: slider
+#    content:
+#      slides:
+#        - title: 👋 Welcome to the Photofolio
+#          content: Take a look at what i'm working on...
+#          align: center
+#          background:
+#            position: right
+#            color: '#666'
+#            image:
+#              # Add your image background to `assets/media/`.
+#              filename: cumputer.jpg
+#              # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@cgower?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Christopher Gower</a>
+#              filters:
+#              brightness: 1.0
+#              size: cover
+#              position: center
+#              parallax: false
+#        - title: Lunch & Learn ☕️
+#          content: 'Share your knowledge with the group and explore exciting new topics together!'
+#          align: left
+#          background:
+#            position: center
+#            color: '#555'
+#        - title: World-Class Semiconductor Lab
+#          content: 'Just opened last month!'
+#          align: right
+#          background:
+#            position: center
+#            color: '#333'
+#          link:
+#            icon: graduation-cap
+#            icon_pack: fas
+#            text: Join Us
+#            url: ../contact/
+#    design:
+#      # Slide height is automatic unless you force a specific height (e.g. '400px')
+#      slide_height: ''
+#      # Make the slides full screen within the browser window?
+#      is_fullscreen: true
+#      # Automatically transition through slides?
+#      loop: true
+#      # Duration of transition between slides (in ms)
+#      interval: 2000
   - block: collection
     id: papers
     content:
