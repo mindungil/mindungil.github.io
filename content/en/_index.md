@@ -33,8 +33,8 @@ sections:
   - block: slider
     content:
       slides:
-        - title: 👋 Welcome to the my Photofolio
-          content: Take a look at what i'm working on.🎯
+        - title: 👋 Welcome to the Photofolio
+          content: Take a look at what i'm working on...
           align: center
           background:
             position: right
