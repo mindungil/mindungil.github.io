@@ -76,12 +76,12 @@ sections:
 #      interval: 2000
 
   - block: collection
-    id: papers
+    id: study
     content:
       title: Featured Publications
       filters:
         folders:
-          - publication
+          - study
         featured_only: true
     design:
       view: article-grid
@@ -92,7 +92,7 @@ sections:
       text: ""
       filters:
         folders:
-          - publication
+          - study
         exclude_featured: false
     design:
       view: citation
