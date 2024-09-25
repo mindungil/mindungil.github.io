@@ -96,6 +96,7 @@ sections:
         exclude_featured: false
     design:
       view: card
+      columns: 3
   - block: collection
     id: talks
     content:
