@@ -85,7 +85,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
-      columns: 2
+      columns: 3
   - block: collection
     content:
       title: Recent Studyg 🐱‍💻
@@ -95,7 +95,7 @@ sections:
           - study
         exclude_featured: false
     design:
-      view: citation
+      view: card
   - block: collection
     id: talks
     content:

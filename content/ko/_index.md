@@ -86,7 +86,7 @@ sections:
     design:
       view: article-grid
       fill_image: false
-      columns: 6
+      columns: 3
   - block: collection
     content:
       title: 현재 공부 🐱‍💻
