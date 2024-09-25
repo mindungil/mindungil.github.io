@@ -88,7 +88,7 @@ sections:
       columns: 2
   - block: collection
     content:
-      title: Recent Study 🐱‍💻
+      title: Recent Studyg 🐱‍💻
       text: ""
       filters:
         folders:
