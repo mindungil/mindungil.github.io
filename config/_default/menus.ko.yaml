@@ -10,11 +10,11 @@ main:
   - name: 공부
     url: /#study
     weight: 11
-  - name: 소식
-    url: /#news
-    weight: 13
   - name: 프로젝트
     url: /#project
+    weight: 13
+  - name: 소식
+    url: /#news
     weight: 15
   - name: 경험
     url: experience/
