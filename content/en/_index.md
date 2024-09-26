@@ -98,7 +98,7 @@ sections:
 
   - block: collection
     content:
-      title: project
+      title: projects
       text: project
       filters:
         folders:
