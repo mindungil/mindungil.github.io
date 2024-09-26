@@ -1,5 +1,5 @@
 ---
-title: Study
+title: project
 cms_exclude: true
 
 # View.

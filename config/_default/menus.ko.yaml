@@ -19,9 +19,6 @@ main:
   - name: 경험
     url: experience/
     weight: 20
-  - name: 프로젝트
-    url: projects/
-    weight: 30
   - name: 취미
     url: teaching/
     weight: 40
