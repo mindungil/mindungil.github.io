@@ -110,7 +110,7 @@ sections:
     design:
       view: article-grid
       columns: 1
-      
+
   - block: collection
     id: news
     content:
@@ -143,7 +143,7 @@ sections:
 
   - block: collection
     content:
-      title: 프로젝트   💻
+      title: 프로젝트
       text: 프로젝트를 통해 실력을 쌓는 중 입니다. 많은 관심 부탁드립니다.
       filters:
         folders:
