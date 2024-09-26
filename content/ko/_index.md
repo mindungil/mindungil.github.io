@@ -87,6 +87,7 @@ sections:
       view: article-grid
       fill_image: false
       columns: 3
+
   - block: collection
     content:
       title: 현재 공부 🐱‍💻
@@ -98,6 +99,7 @@ sections:
     design:
       view: card
       columns: 3
+
   - block: collection
     id: talks
     content:
@@ -108,6 +110,7 @@ sections:
     design:
       view: article-grid
       columns: 1
+      
   - block: collection
     id: news
     content:
