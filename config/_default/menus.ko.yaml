@@ -13,6 +13,9 @@ main:
   - name: 소식
     url: /#news
     weight: 13
+  - name: 프로젝트
+    url: /#project
+    weight: 15
   - name: 경험
     url: experience/
     weight: 20
