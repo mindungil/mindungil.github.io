@@ -142,6 +142,7 @@ sections:
         padding: [0, 0, 0, 0]
 
   - block: collection
+    id: project
     content:
       title: project
       text: 프로젝트를 통해 실력을 쌓는 중 입니다. 많은 관심 부탁드립니다.

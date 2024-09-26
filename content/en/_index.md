@@ -97,6 +97,7 @@ sections:
         padding: [0, 0, 0, 0]
 
   - block: collection
+    id: project
     content:
       title: projects
       text: project
