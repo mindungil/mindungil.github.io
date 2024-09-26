@@ -44,15 +44,16 @@ sections:
       columns: 3
       
   - block: collection
+    id: project
     content:
-      title: Recent Studying 🐱‍💻
-      text: ""
+      title: projects
+      text: project
       filters:
         folders:
-          - study
-        exclude_featured: true
+          - project
     design:
-      view: card
+      view: article-grid
+      fill_image: false
       columns: 3
 
   - block: collection
@@ -95,19 +96,6 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-
-  - block: collection
-    id: project
-    content:
-      title: projects
-      text: project
-      filters:
-        folders:
-          - project
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 3
         
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
