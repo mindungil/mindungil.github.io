@@ -47,11 +47,13 @@ sections:
   - block: collection
     id: project
     content:
-      title: project1
+      title: 프로젝트
       text:
       filters:
         folders:
-          - project
+          - project/pytorch
+          - project/scikit
+          - project/Typescript
     design:
       view: cummunity/custumCard
       columns: 3
