@@ -49,34 +49,16 @@ sections:
     content:
       title: 프로젝트
       text:
+      offset: 0
+      count: 3
       filters:
         folders:
           - project1
-    design:
-      view: cummunity/custumCard
-      columns: 1
-
-    - block: collection
-    content:
-      title: 프로젝트2
-      text:
-      filters:
-        folders:
           - project2
-    design:
-      view: cummunity/custumCard
-      columns: 1
-
-    - block: collection
-    content:
-      title: 프로젝트3
-      text:
-      filters:
-        folders:
           - project3
     design:
       view: cummunity/custumCard
-      columns: 1
+      columns: 3
 
   - block: collection
     id: talks
