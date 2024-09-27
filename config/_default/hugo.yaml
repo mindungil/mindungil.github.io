@@ -12,7 +12,7 @@ baseURL: 'https://mindung/'
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
+defaultContentLanguage: ko
 hasCJKLanguage: false
 defaultContentLanguageInSubdir: true #지구본
 removePathAccents: true
