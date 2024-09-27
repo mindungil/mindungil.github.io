@@ -58,7 +58,7 @@ sections:
           - project2
           - project3
     design:
-      view: cummunity/custumCard
+      view: community/customCard
       columns: 3
 
   - block: collection

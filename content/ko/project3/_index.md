@@ -1,7 +1,7 @@
 ---
 title: project3
 
-view: community/custumCard
+view: community/customCard
 # external_link: https://github.com/scikit-learn/scikit-learn
 
 banner:

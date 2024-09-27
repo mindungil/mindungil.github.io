@@ -1,7 +1,7 @@
 ---
 title: project1
 
-view: community/custumCard
+view: community/customCard
 # external_link: https://github.com/pytorch/pytorch
 
 banner:
