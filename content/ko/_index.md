@@ -47,13 +47,25 @@ sections:
   - block: collection
     id: project
     content:
-      title: project
+      title: project1
       text:
       filters:
         folders:
-          - project
+          - project/pytorch
+    content:
+      title: project2
+      text:
+      filters:
+        folders:
+          - project/scikit
+    content:
+      title: project3
+      text:
+      filters:
+        folders:
+          - project/Typescript
     design:
-      view: collection
+      view: cummunity/custumCard
       fill_image: false
       columns: 3
 
