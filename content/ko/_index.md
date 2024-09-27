@@ -51,7 +51,9 @@ sections:
       text:
       filters:
         folders:
-          - project/pytorch
+          - project1
+          - project2
+          - project3
     design:
       view: cummunity/custumCard
       columns: 3
