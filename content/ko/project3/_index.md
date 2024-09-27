@@ -6,5 +6,5 @@ view: community/customCard
 
 banner:
   catpion: ''
-  image: 'cumputer.jpg'
+  image: 'computer.jpg'
 ---

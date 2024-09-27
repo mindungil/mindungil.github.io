@@ -6,5 +6,5 @@ view: community/customCard
 
 banner:
   caption: ''
-  image: 'cumputer.jpg'
+  image: 'computer.jpg'
 ---
