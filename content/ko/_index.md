@@ -51,6 +51,7 @@ sections:
       text:
       offset: 0
       count: 3
+      order: desc
       filters:
         folders:
           - project1
