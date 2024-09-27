@@ -1,11 +1,11 @@
 ---
 title: project1
-date: 2024-09-27
+view: cummunity/custumCard
 # external_link: https://github.com/pandas-dev/pandas
 tags:
   - Tag
+banner:
+  caption: ''
+  image: 'cumputer.jpg'
 ---
-
-프로젝트1 입니다.
-
 <!--more-->
