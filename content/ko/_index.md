@@ -48,12 +48,12 @@ sections:
     id: project
     content:
       title: project
-      text: 프로젝트
+      text:
       filters:
         folders:
           - project
     design:
-      view: cummunity/custumCard
+      view: collection
       fill_image: false
       columns: 3
 
