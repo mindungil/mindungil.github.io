@@ -89,15 +89,16 @@ sections:
       columns: 3
 
   - block: collection
+    id: project
     content:
-      title: 현재 공부 🐱‍💻
-      text: ""
+      title: project
+      text: 프로젝트
       filters:
         folders:
-          - study
-        exclude_featured: false
+          - project
     design:
-      view: card
+      view: article-grid
+      fill_image: false
       columns: 3
 
   - block: collection
@@ -140,19 +141,6 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
-
-  - block: collection
-    id: project
-    content:
-      title: project
-      text: 프로젝트를 통해 실력을 쌓는 중 입니다. 많은 관심 부탁드립니다.
-      filters:
-        folders:
-          - project
-    design:
-      view: article-grid
-      fill_image: false
-      columns: 3
 
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
