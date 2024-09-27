@@ -1,11 +1,8 @@
 ---
 title: project3
 
-view: cummunity/custumCard
+view: community/custumCard
 # external_link: https://github.com/scikit-learn/scikit-learn
-
-tags:
-  - Tag
 
 banner:
   catpion: ''

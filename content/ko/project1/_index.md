@@ -1,11 +1,8 @@
 ---
 title: project1
 
-view: cummunity/custumCard
+view: community/custumCard
 # external_link: https://github.com/pandas-dev/pandas
-
-tags:
-  - Tag
 
 banner:
   caption: ''

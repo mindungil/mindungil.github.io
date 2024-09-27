@@ -59,7 +59,7 @@ sections:
           - project3
     design:
       view: cummunity/custumCard
-      columns: '3'
+      columns: 3
 
   - block: collection
     id: talks
