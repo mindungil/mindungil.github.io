@@ -52,11 +52,31 @@ sections:
       filters:
         folders:
           - project1
+    design:
+      view: cummunity/custumCard
+      columns: 1
+
+    - block: collection
+    content:
+      title: 프로젝트2
+      text:
+      filters:
+        folders:
           - project2
+    design:
+      view: cummunity/custumCard
+      columns: 1
+
+    - block: collection
+    content:
+      title: 프로젝트3
+      text:
+      filters:
+        folders:
           - project3
     design:
       view: cummunity/custumCard
-      columns: 3
+      columns: 1
 
   - block: collection
     id: talks
