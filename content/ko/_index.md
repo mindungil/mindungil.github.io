@@ -52,21 +52,10 @@ sections:
       filters:
         folders:
           - project/pytorch
-    content:
-      title: project2
-      text:
-      filters:
-        folders:
           - project/scikit
-    content:
-      title: project3
-      text:
-      filters:
-        folders:
           - project/Typescript
     design:
       view: cummunity/custumCard
-      fill_image: false
       columns: 3
 
   - block: collection
