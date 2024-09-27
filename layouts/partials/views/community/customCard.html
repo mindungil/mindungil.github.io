@@ -20,7 +20,7 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<div class="card">
+<div class="card" style="margin: 20px">
   {{ with $resource }}
   {{ $image := .Resize "550x" }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
