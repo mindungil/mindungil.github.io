@@ -51,9 +51,7 @@ sections:
       text:
       filters:
         folders:
-          - pytorch
-          - scikit
-          - Typescript
+          - project/pytorch
     design:
       view: cummunity/custumCard
       columns: 3
