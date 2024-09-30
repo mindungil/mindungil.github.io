@@ -7,7 +7,8 @@ math: false
 tags:
   - calm
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: 'This is example picture from unsplash'
+  # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%8F%84%EC%84%9C%EA%B4%80%EC%97%90-%EC%8C%93%EC%9D%B8-%EC%B1%85%EC%97%90%EC%84%9C-%EB%96%A0-%EC%9E%88%EB%8A%94-%ED%8E%BC%EC%B3%90%EC%A7%84-%EC%B1%85%EC%9D%98-%EB%AA%A8%EC%8A%B5-HH4WBGNyltc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@jaredd?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jaredd Craig</a>
 ---
 
 저는 되게 편협하게 책을 읽습니다.

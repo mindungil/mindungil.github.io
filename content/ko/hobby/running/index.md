@@ -7,7 +7,8 @@ math: false
 tags:
   - exercise
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: 'This is example picture from unsplash'
+  # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%82%AE%EC%97%90-%ED%8C%8C%EB%8F%84%EB%B0%94-%EB%A7%88%EB%9D%BC%ED%86%A4%EC%9D%84-%EB%B3%B4%EB%8A%94-%EC%82%AC%EB%9E%8C%EB%93%A4-x5GcXFvJJhI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@peterampazzo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pietro Rampazzo</a>
 ---
 
 저는 다양한 운동을 좋아합니다. 
