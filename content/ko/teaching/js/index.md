@@ -18,7 +18,7 @@ On this page, you'll find some examples of the types of technical content that c
 
 ## 사진
 
-{{< icon name="featured.jpg" >}} 
+![screen reader text](featured.jpg "caption")
 
 Teach your course by sharing videos with your students. Choose from one of the following approaches:
 
