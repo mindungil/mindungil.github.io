@@ -1,6 +1,6 @@
 ---
-title: Teaching
-summary: My courses
+title: Hobby
+summary: my hobby
 type: landing
 
 cascade:
@@ -19,5 +19,5 @@ sections:
           - teaching
     design:
       view: article-grid
-      columns: 2
+      columns: 3
 ---
