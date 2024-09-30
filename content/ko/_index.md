@@ -53,9 +53,7 @@ sections:
       order: desc
       filters:
         folders:
-          - project1
-          - project2
-          - project3
+          - project
     design:
       view: card
       columns: 3
