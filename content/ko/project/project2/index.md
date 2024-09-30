@@ -1,10 +1,12 @@
 ---
 title: project2
-date: 2024-09-27
+date: 2024-09-01
+external_link: https://github.com/mindungil/webBoard
+tags:
+  - Node.js
+  - express
 ---
 
-project2
+project 2 입니다.
 
 <!--more-->
-
-<!-- project2 입니다. -->
