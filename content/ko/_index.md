@@ -64,7 +64,7 @@ sections:
   - block: collection
     id: hobby
     content:
-      title: Hobby
+      title: 취미
       filters:
         folders:
           - hobby
