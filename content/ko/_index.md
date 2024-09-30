@@ -38,7 +38,6 @@ sections:
       filters:
         folders:
           - study 
-        featured_only: true
     design:
       view: article-grid
       fill_image: false
@@ -58,7 +57,7 @@ sections:
           - project2
           - project3
     design:
-      view: community/customCard
+      view: card
       columns: 3
 
   - block: collection
