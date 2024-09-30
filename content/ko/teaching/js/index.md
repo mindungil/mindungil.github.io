@@ -10,17 +10,16 @@ image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+저는 다양한 운동을 좋아합니다. 사실 거의 대부분의 운동을 좋아합니다.
+그 중에서도 유일히 꾸준히 하는 운동이 있습니다.
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
-
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+**책상에 오래 앉아있기 위해서...**
 
 ## 사진
 
-![screen reader text](featured.jpg "caption")
+![screen reader text](track.jpg "전북대학교의 대운동장 사진입니다.")
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+전북대학교의 대운동장 사진입니다.
 
 
 ## 소개
@@ -36,5 +35,3 @@ Teach your course by sharing videos with your students. Choose from one of the f
 하지만 일주일도 되기 전에 런닝의 효과를 몸소 느끼게 되었습니다.
 
 그때부터 저는 일주일에 한 번씩은 런닝을 하게 되었습니다.
-
-## Did you find this page helpful? Consider sharing it 🙌
