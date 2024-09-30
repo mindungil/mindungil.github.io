@@ -1,140 +1,51 @@
 ---
-title: Learn Python
-summary: Easily learn Python in 10 minutes!
-date: 2023-10-24
+title: 독서
+summary: 정신적 수양은 중요합니다..
+date: 2024-09-30
 type: docs
 math: false
 tags:
-  - Python
+  - calm
 image:
   caption: 'Embed rich media such as videos and LaTeX math'
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+저는 되게 편협하게 책을 읽습니다.
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
+오로지 소설책, 에세이만 읽습니다.
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+다른 도서는 읽지 않습니다.
 
-## Video
+아마도 어렸을 때 해리포터 전권을 너무 돌려봤기 때문이 아닌지..
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+**책을 조금이라도 읽는것이 대단하다고 생각합니다..**
 
-{{< youtube D2vj0WcvH5c >}}
+## 사진
 
-**Youtube**:
-
-    {{</* youtube w7Ft2ymGmfc */>}}
-
-**Bilibili**:
-
-    {{</* bilibili id="BV1WV4y1r7DF" */>}}
-
-**Video file**
-
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
-
-    {{</* video src="my_video.mp4" controls="yes" */>}}
-
-## Podcast
-
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
-
-    {{</* audio src="ambient-piano.mp3" */>}}
-
-Try it out:
-
-{{< audio src="ambient-piano.mp3" >}}
-
-## Test students
-
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
-
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
-```
-
-renders as
-
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
-
-## Math
-
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.yaml` file.
-
-To render _inline_ or _block_ math, wrap your LaTeX math with `{{</* math */>}}$...${{</* /math */>}}` or `{{</* math */>}}$$...$${{</* /math */>}}`, respectively.
-
-{{% callout note %}}
-We wrap the LaTeX math in the Hugo Blox _math_ shortcode to prevent Hugo rendering our math as Markdown.
-{{% /callout %}}
-
-Example **math block**:
-
-```latex
-{{</* math */>}}
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-{{< /math >}}
-
-Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
-
-Example **multi-line math** using the math linebreak (`\\`):
-
-```latex
-{{</* math */>}}
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
-
-{{< /math >}}
-
-## Code
-
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
+![screen reader text](book.jpg "저는 책방에 자주 갑니다. (지금은 없어진 대전의 한 문고에서)")
 
 
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
+## 소개
 
-renders as
+사실 그렇게 많은 책을 읽은 것은 아닙니다.
 
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
+명작이라 하는 책도 여럿 접하긴 했지만 제가 읽은 것들을 모아봤자 반의 반의 반도 안 될 것 같습니다.
 
-## Inline Images
+그럼에도 감히 제가 재밌게 읽었던 책을 추천하고자 한다면..
 
-```go
-{{</* icon name="python" */>}} Python
-```
+우선은 "라틴어 수업" 이라는 책입니다.
 
-renders as
+이 책을 읽으면 용기와 열정을 순수히 만들어 낼 수 있다고 보장합니다.
 
-{{< icon name="python" >}} Python
+물론 이 책은 소설이 아니라 자기계발서 입니다.
 
-## Did you find this page helpful? Consider sharing it 🙌
+
+소설을 추천한다면.. 저는 개인적으로는 
+
+"노르웨이의 숲" 이라는 책을 감명깊게 봤습니다.
+
+이 책의 문체가 정말 좋았습니다.
+
+사실 좋은 책들은 내용과 구성이 모두 훌룡합니다. 
+
+그렇기에 하나만 고를 수 없지만, 이 작가의 문체는 저와 정말 잘 맞기에 골랐습니다.

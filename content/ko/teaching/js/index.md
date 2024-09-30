@@ -1,7 +1,7 @@
 ---
 title: 런닝
 summary: 건강과 체력을 위해서..
-date: 2024-09-01
+date: 2024-09-30
 type: docs
 math: false
 tags:
