@@ -11,12 +11,12 @@ cascade:
 
 sections:
   - block: collection
-    id: teaching
+    id: hobby
     content:
-      title: Teaching
+      title: Hobby
       filters:
         folders:
-          - teaching
+          - hobby
     design:
       view: article-grid
       columns: 3

@@ -12,6 +12,9 @@ main:
     weight: 11
   - name: 프로젝트
     url: /#project
+    weight: 12
+  - name: 취미
+    url: /#hobby
     weight: 13
   - name: 소식
     url: /#news

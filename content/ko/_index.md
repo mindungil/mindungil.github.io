@@ -62,6 +62,17 @@ sections:
       columns: 3
 
   - block: collection
+    id: hobby
+    content:
+      title: Hobby
+      filters:
+        folders:
+          - hobby
+    design:
+      view: article-grid
+      columns: 3
+
+  - block: collection
     id: talks
     content:
       title: Recent & Upcoming Talks
