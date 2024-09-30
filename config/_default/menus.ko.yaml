@@ -23,5 +23,5 @@ main:
     url: experience/
     weight: 20
   - name: 취미
-    url: teaching/
+    url: hobby/
     weight: 40
