@@ -18,6 +18,15 @@ sections:
       button:
         text: Download CV
         url: uploads/instruction.pdf
+      links:
+      - icon_pack: fab
+        icon: twitter
+        name: Follow
+        url: 'https://twitter.com/Twitter'
+      - icon_pack: fab
+        icon: medium
+        name: Originally published on Medium
+        url: 'https://medium.com'
     design:
       css_class: dark
       background:

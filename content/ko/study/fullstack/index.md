@@ -46,15 +46,6 @@ image:
 projects:
   - example
 
-links:
-  - icon_pack: fab
-    icon: twitter
-    name: Follow
-    url: 'https://twitter.com/Twitter'
-  - icon_pack: fab
-    icon: medium
-    name: Originally published on Medium
-    url: 'https://medium.com'
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
