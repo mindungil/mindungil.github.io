@@ -18,13 +18,11 @@ publishDate: '2017-01-01T00:00:00Z'
 # Enter a publication type from the CSL standard.
 # Publication name and optional abbreviated publication name.
 
-text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
 # Summary. An optional shortened abstract.
 summary: 다양한 프로그래밍 언어를 공부하고 있습니다.
 
 tags:
-  - Large Language Models
+  - Programing
 
 # Display this page in the Featured widget?
 featured: true
@@ -38,7 +36,7 @@ featured: true
 image:
   caption: 'Image credit: [**Flaticon**](<a href="https://www.flaticon.com/kr/free-icons/" title="생각 아이콘">생각 아이콘 제작자: Design Circle - Flaticon</a>)'
   focal_point: ''
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -48,6 +46,15 @@ image:
 projects:
   - example
 
+links:
+  - icon_pack: fab
+    icon: twitter
+    name: Follow
+    url: 'https://twitter.com/Twitter'
+  - icon_pack: fab
+    icon: medium
+    name: Originally published on Medium
+    url: 'https://medium.com'
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
@@ -57,8 +64,6 @@ slides: example
 ---
 
 프로그래밍을 공부하고 있습니다.
-
-{{< cta cta_text="Do something" cta_link="/" cta_new_tab="false" >}}
 
 {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
