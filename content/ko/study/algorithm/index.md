@@ -48,7 +48,7 @@ projects:
 slides: example
 ---
 
-{{< cta cta_text="알고리즘 공부 페이지" cta_link="https://solved.ac/profile/soet02" cta_new_tab="false" >}}
+{{< cta cta_text="알고리즘 공부 페이지" cta_link="https://solved.ac/profile/soet02" cta_new_tab="true" >}}
 
 {{< cta cta_text="알고리즘 스터디" cta_link="https://github.com/mindungil/24ALPStudy" cta_new_tab="true" >}}
 

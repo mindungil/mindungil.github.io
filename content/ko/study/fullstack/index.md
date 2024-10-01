@@ -54,4 +54,12 @@ projects:
 slides: example
 ---
 
-백엔드 과정을 공부하고 있습니다.
+{{< cta cta_text="관련 프로젝트" cta_link="/#project" cta_new_tab="false" >}}
+
+
+백엔드 개발자가 되기 위해, 백엔드 기술 스택을 공부 중 입니다.
+
+디자인 패턴, API 설계, 서버 등을 공부 중 입니다.
+
+
+
