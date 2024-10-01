@@ -50,12 +50,11 @@ slides: example
 
 {{< cta cta_text="알고리즘 공부 페이지" cta_link="https://solved.ac/profile/soet02" cta_new_tab="false" >}}
 
-{{< cta cta_text="알고리즘 스터디" cta_link="https://github.com/mindungil/24ALPStudy" cta_new_tab="false" >}}
+{{< cta cta_text="알고리즘 스터디" cta_link="https://github.com/mindungil/24ALPStudy" cta_new_tab="true" >}}
+
 
 C++ 언어를 활용해서 알고리즘 공부를 하고 있습니다.
 
 현재는 스티디를 병행하여 공부 중 입니다.
 
 목표는 **알고리즘 대회 입상** 및 **기업 코딩테스트 대비** 를 준비하는 것 입니다.
-
-시간이 날 때마다 문제를 풀려고 노력하고 있습니다.
