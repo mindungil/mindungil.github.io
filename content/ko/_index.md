@@ -31,6 +31,16 @@ sections:
           position: center
           parallax: false
 
+  links:
+  - icon_pack: fab
+    icon: twitter
+    name: Follow
+    url: 'https://twitter.com/Twitter'
+  - icon_pack: fab
+    icon: medium
+    name: Originally published on Medium
+    url: 'https://medium.com'
+
   - block: collection
     id: study
     content:
