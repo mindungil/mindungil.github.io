@@ -1,5 +1,5 @@
 ---
-title: '프로그래밍'
+title: '백엔드 프로그래밍'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -19,7 +19,7 @@ publishDate: '2017-01-01T00:00:00Z'
 # Publication name and optional abbreviated publication name.
 
 # Summary. An optional shortened abstract.
-summary: 다양한 프로그래밍 언어를 공부하고 있습니다.
+summary: Back-end 공부를 하고 있습니다.
 
 tags:
   - Programing
@@ -54,14 +54,4 @@ projects:
 slides: example
 ---
 
-프로그래밍을 공부하고 있습니다.
-
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+백엔드 과정을 공부하고 있습니다.
