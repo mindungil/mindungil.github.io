@@ -30,9 +30,9 @@ featured: true
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: [**FALTICON**](<a href="https://www.flaticon.com/kr/free-icons/-" title="프로그래밍 언어 아이콘">프로그래밍 언어 아이콘 제작자: ultimatearm - Flaticon</a>)'
   focal_point: ''
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -50,4 +50,12 @@ projects:
 slides: example
 ---
 
-여러 프로그래밍을 깊게 공부하고 있습니다.
+한 가지 언어만 공부하지 않고 여러 언어를 배우려고 합니다.
+
+기술의 흐름을 따라잡기 위해 미리 유용한 여러 언어를 배우며, 
+
+주력 언어를 정해 집중을 하고 있습니다.
+
+현재는 **TypeScript**를 공부 중 입니다.
+
+{{< cta cta_text="TypeScript 연습 페이지" cta_link="https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts" cta_new_tab="true" >}}
