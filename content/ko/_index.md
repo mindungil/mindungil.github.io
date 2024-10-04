@@ -19,7 +19,7 @@ sections:
         text: Download CV
         url: uploads/instruction.pdf
     design:
-      css_class: white
+      css_class: dark
       background:
         color: black
         image:
@@ -73,7 +73,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: Recent News
+      title: 소식
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
