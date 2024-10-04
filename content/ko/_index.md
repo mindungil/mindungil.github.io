@@ -24,7 +24,7 @@ sections:
         color: black
         image:
           # Add your image background to `asssets/media/`.
-          filename: background.jpg
+          filename: nature.gif
           filters:
             brightness: 1.0
           size: cover
