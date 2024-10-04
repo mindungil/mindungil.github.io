@@ -12,7 +12,7 @@ doi: ''
 
 # Schedule page publish date (NOT publication's date).
 # Summary. An optional shortened abstract.
-summary: 프로그래밍 언어를 공부하고 있습니다.
+summary: 다양한 언어를 공부하고 있습니다.
 
 tags:
   - Programing Language
