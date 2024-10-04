@@ -19,14 +19,14 @@ sections:
         text: Download CV
         url: uploads/instruction.pdf
     design:
-      css_class: dark
+      css_class: white
       background:
         color: black
         image:
           # Add your image background to `asssets/media/`.
           filename: background.jpg
           filters:
-            brightness: 2.0
+            brightness: 1.0
           size: cover
           position: center
           parallax: true
