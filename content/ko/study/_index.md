@@ -3,7 +3,7 @@ title: study
 cms_exclude: true
 
 # View.
-view: community/gridCard
+view: community/test-card
 
 # Optional header image (relative to `static/media/` folder).
 banner:

@@ -39,7 +39,7 @@ sections:
         folders:
           - study 
     design:
-      view: community/gridCard
+      view: community/test-card
       fill_image: false
       columns: 3
 
