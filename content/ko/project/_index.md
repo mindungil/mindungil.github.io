@@ -1,7 +1,8 @@
 ---
 title: 프로젝트
-cms_exclude: true
 
+offset: 0
+count: 3
 # View.
 view: community/circle-card
 fill_image: true
