@@ -1,13 +1,26 @@
-<div class="flex mb-5 bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden" style="max-width: 80%;">
+{{ $item := .item }}
+{{ $fill_image := .config.fill_image | default true }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+<div class="flex mb-5 bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden w-[80%] mx-auto"> <!-- 너비를 70%로 설정 -->
   {{ with $resource }}
   {{ $image := "" }}
   {{ if $fill_image }}
-    {{ $image = .Fill (printf "240x240 %s" $anchor) }} <!-- 작은 사이즈로 조정 -->
+    {{ $image = .Fill (printf "360x360 %s" $anchor) }} <!-- 작은 사이즈로 조정 -->
   {{ else }}
-    {{ $image = .Fit (printf "240x240 %s" $anchor) }}
+    {{ $image = .Fit (printf "360x360 %s" $anchor) }}
   {{ end }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-
+  
   <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="relative block w-1/3 overflow-hidden"> <!-- 1/3 너비 -->
     <img alt="{{ $item.Title | plainify }}"
          class="w-full h-full object-cover transition-all"
@@ -15,7 +28,7 @@
          height="{{ $image.Height }}" width="{{ $image.Width }}">
   </a>
   {{ end }}
-
+  
   <div class="p-5 w-2/3"> <!-- 오른쪽 콘텐츠 영역 2/3 너비 -->
     <div class="flex gap-2 mb-3">
       {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
@@ -24,17 +37,17 @@
       </a>
       {{ end }}
     </div>
-
+    
     <h2 class="text-xl font-semibold leading-tight">
       <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="text-gray-900 dark:text-white hover:text-primary-600">
         {{ $item.Title }}
       </a>
     </h2>
-
+    
     <p class="mt-2 line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
       {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp }}
     </p>
-
+    
     <div class="flex items-center mt-4">
       {{ if .Params.authors }}
       <div class="flex items-center gap-2">
