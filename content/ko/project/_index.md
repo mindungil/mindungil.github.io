@@ -1,11 +1,10 @@
 ---
-title: project
+title: 프로젝트
 cms_exclude: true
 
 # View.
-design:
-  view: community/circle-card
-  fill_image: false;
+view: community/circle-card
+fill_image: false
 # Optional header image (relative to `static/media/` folder).
 banner:
   caption: ''
