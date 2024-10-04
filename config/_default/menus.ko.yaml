@@ -7,15 +7,15 @@ main:
   - name: 소개
     url: /
     weight: 100
-  - name: 작업
-    url: 작업
+  - name: 프로젝트
+    url: 프로젝트
     weight: 200
   - parent: 프로젝트
     name: 공부
     url: /#study
     weight: 210
-  - parent: 작업
-    name: 프로젝트
+  - parent: 프로젝트
+    name: 작업물
     url: /#project
     weight: 220
   - name: 정보
@@ -31,4 +31,4 @@ main:
     weight: 320
   - name: 소식
     url: /#news
-    weight: 410
+    weight: 400
