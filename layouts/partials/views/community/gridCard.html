@@ -1,0 +1,76 @@
+{{ $item := .item }}
+{{ $fill_image := .config.fill_image | default true }}
+
+{{ $resource := partial "functions/get_featured_image.html" $item }}
+{{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+{{ $link := $item.Params.external_link | default $item.RelPermalink }}
+{{ $target := "" }}
+{{ if $item.Params.external_link }}
+  {{ $link = $item.Params.external_link }}
+  {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+{{ end }}
+
+<div class="flex flex-col mb-5 bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden">
+  
+  {{ with $resource }}
+  {{ $image := "" }}
+  {{ if $fill_image }}
+    {{ $image = .Fill (printf "960x540 %s" $anchor) }}
+  {{ else }}
+    {{ $image = .Fit (printf "960x540 %s" $anchor) }}
+  {{ end }}
+  {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+  
+  <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="relative block overflow-hidden">
+    <img alt="{{ $item.Title | plainify }}"
+         class="w-full h-64 object-cover transition-all"
+         loading="lazy" src="{{ $image.RelPermalink }}"
+         height="{{ $image.Height }}" width="{{ $image.Width }}">
+  </a>
+  {{ end }}
+  
+  <div class="p-5">
+    <div class="flex gap-2 mb-3">
+      {{ range $index, $value := first 1 ($item.GetTerms "tags") }}
+      <a href="{{ .RelPermalink }}">
+        <span class="text-xs font-medium text-primary-700 dark:text-primary-300 uppercase">{{ .Page.LinkTitle }}</span>
+      </a>
+      {{ end }}
+    </div>
+    
+    <h2 class="text-xl font-semibold leading-tight">
+      <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="text-gray-900 dark:text-white hover:text-primary-600">
+        {{ $item.Title }}
+      </a>
+    </h2>
+    
+    <p class="mt-2 line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
+      {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp - }}
+    </p>
+    
+    <div class="flex items-center mt-4">
+      {{ if .Params.authors }}
+      <div class="flex items-center gap-2">
+        {{ range $index, $value := first 1 ($item.GetTerms "authors") }}
+        <div class="relative h-5 w-5 flex-shrink-0">
+          {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
+          {{ $authorImage := $avatar.Process "Fill 30x30 Center 95 webp" }}
+          <img alt="avatar"
+               class="rounded-full object-cover"
+               loading="lazy"
+               src="{{ $authorImage.RelPermalink }}"
+               height="{{ $authorImage.Height }}"
+               width="{{ $authorImage.Width }}">
+        </div>
+        <span class="text-sm truncate">{{ .Page.LinkTitle }}</span>
+        {{ end }}
+      </div>
+      {{ end }}
+      <span class="text-xs text-gray-300 dark:text-gray-600">•</span>
+      <time class="truncate text-sm" datetime="{{ time.Format "2006-01-02" $item.Date }}">
+        {{ $item.Date | time.Format (site.Params.locale.date_format | default ":date_long") }}
+      </time>
+    </div>
+  </div>
+</div>
