@@ -24,12 +24,12 @@ sections:
         color: black
         image:
           # Add your image background to `asssets/media/`.
-          filename: stacked-peaks.svg
+          filename: background.jpg
           filters:
             brightness: 2.0
           size: cover
           position: center
-          parallax: false
+          parallax: true
 
   - block: collection
     id: study
