@@ -46,7 +46,7 @@
     </h2>
     
     <p class="mt-2 line-clamp-3 text-sm text-gray-600 dark:text-gray-400">
-      {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp - }}
+      {{ ($item.Params.summary | default $item.Summary) | plainify | htmlUnescape | chomp }}
     </p>
     
     <div class="flex items-center mt-4">
