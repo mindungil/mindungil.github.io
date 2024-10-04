@@ -4,7 +4,7 @@ cms_exclude: true
 
 # View.
 view: community/circle-card
-fill_image: false
+fill_image: true
 columns: 3
 
 # Optional header image (relative to `static/media/` folder).
