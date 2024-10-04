@@ -34,6 +34,7 @@ sections:
         image:
           # Add your image background to `asssets/media/`.
           filename: space.jpg
+          # 사진: [unsplash] <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%95%BC%EA%B0%84%EC%9D%98-%EC%98%A4%EB%A1%9C%EB%9D%BC-R3pUGn5YiTg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@marceloquinan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marcelo Quinan</a>
           filters:
             brightness: 1.0
           size: cover
@@ -64,7 +65,7 @@ sections:
         folders:
           - project
     design:
-      view: article-grid
+      view: community/circle-card
       fill_image: false
       columns: 3
 

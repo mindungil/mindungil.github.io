@@ -1,4 +1,4 @@
 {{ $columns := .config.columns | default 1 }} <!-- 기본 값을 1로 수정 -->
 {{ $len := .config.len | default 2 }}
-<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8">
-  <div class="grid gap-10 grid-cols-1 max-w-[80%] mx-auto"> <!-- max-w-[80%] 추가 및 수직 정렬 유지 -->
+<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 {{ if eq $len 1 }}max-w-[500px] justify-center{{ else }}max-w-screen-lg {{ end }}">
+  <div class="grid gap-10 grid-cols-1"> <!-- 수직 정렬을 위해 grid-cols-1로 변경 -->
