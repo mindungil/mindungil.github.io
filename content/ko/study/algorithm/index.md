@@ -9,7 +9,6 @@ authors:
 
 # Author notes (optional)
 date: '2024-09-30'
-doi: ''
 
 # Summary. An optional shortened abstract.
 summary:  알고리즘을 공부하고 있습니다.
@@ -39,13 +38,6 @@ image:
 #   Otherwise, set `projects: []`.
 projects:
   - example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
 ---
 
 {{< cta cta_text="알고리즘 공부 페이지" cta_link="https://solved.ac/profile/soet02" cta_new_tab="true" >}}

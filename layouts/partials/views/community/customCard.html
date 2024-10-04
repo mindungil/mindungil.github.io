@@ -1,0 +1,32 @@
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6"> <!-- 3개의 컬럼으로 나눔, md 화면부터 3컬럼 -->
+  {{ range .Pages }}
+    {{ $item := .item }}
+    {{ $link := $item.RelPermalink }}
+    {{ $target := "" }}
+    {{ if $item.Params.external_link }}
+      {{ $link = $item.Params.external_link }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+
+    {{ $resource := partial "functions/get_featured_image.html" $item }}
+    {{ $anchor := $item.Params.image.focal_point | default "Center" }}
+
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="block mb-5"> <!-- 블럭 요소로 클릭 가능한 전체 카드 -->
+      <div class="flex items-start space-x-4"> <!-- 이미지와 텍스트를 가로로 배치, 간격 조정 -->
+        <div class="flex-shrink-0 overflow-hidden"> <!-- 이미지 부분 -->
+          {{ with $resource }}
+            {{ $image := .Fill (printf "300x300 %s" $anchor) }} <!-- 이미지 크기 조정 -->
+            {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
+            <img class="h-32 w-32 object-cover hover:scale-125 transition duration-500 cursor-pointer" loading="lazy" src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}" alt="{{ $item.Title | plainify }}">
+          {{ end }}
+        </div>
+        <div class="p-4"> <!-- 텍스트 요약 부분 -->
+          <div class="text-lg font-semibold text-primary-700 dark:text-primary-200">{{ $item.Title }}</div>
+          <p class="mt-2 text-sm text-black dark:text-white">
+            {{ $item.Params.summary | default $item.Summary | markdownify | safeHTML }} <!-- 마크다운 및 외부 링크 처리 가능 -->
+          </p>
+        </div>
+      </div>
+    </a>
+  {{ end }}
+</div>

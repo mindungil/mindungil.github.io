@@ -3,7 +3,7 @@ title: study
 cms_exclude: true
 
 # View.
-view: customCard
+view: community/customCard
 
 
 
