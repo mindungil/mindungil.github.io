@@ -7,12 +7,10 @@ title: '프로그래밍 언어'
 authors:
   - admin
 
-date: '2013-07-01T00:00:00Z'
+date: '2024-09-30T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
-
 # Summary. An optional shortened abstract.
 summary: 프로그래밍 언어를 공부하고 있습니다.
 
