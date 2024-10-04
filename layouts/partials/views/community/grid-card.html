@@ -15,9 +15,9 @@
   {{ with $resource }}
   {{ $image := "" }}
   {{ if $fill_image }}
-    {{ $image = .Fill (printf "360x360 %s" $anchor) }} <!-- 작은 사이즈로 조정 -->
+    {{ $image = .Fill (printf "300x300 %s" $anchor) }} <!-- 작은 사이즈로 조정 -->
   {{ else }}
-    {{ $image = .Fit (printf "360x360 %s" $anchor) }}
+    {{ $image = .Fit (printf "300x300 %s" $anchor) }}
   {{ end }}
   {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
   

@@ -3,8 +3,9 @@ title: project
 cms_exclude: true
 
 # View.
-view: community/circle-card
-
+design:
+  view: community/circle-card
+  fill_image: false;
 # Optional header image (relative to `static/media/` folder).
 banner:
   caption: ''
