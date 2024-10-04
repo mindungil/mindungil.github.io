@@ -94,7 +94,7 @@ sections:
       # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
+      # Choose a layout view  
       view: date-title-summary
       # Reduce spacing
       spacing:
