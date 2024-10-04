@@ -6,19 +6,29 @@
 main:
   - name: 소개
     url: /
-    weight: 10
-  - name: 공부
+    weight: 100
+  - name: 작업
+    url: 작업
+    weight: 200
+  - parent: 프로젝트
+    name: 공부
     url: /#study
-    weight: 11
-  - name: 프로젝트
+    weight: 210
+  - parent: 작업
+    name: 프로젝트
     url: /#project
-    weight: 12
-  - name: 취미
+    weight: 220
+  - name: 정보
+    url: 정보
+    weight: 300
+  - parent: 정보
+    name: 취미
     url: /#hobby
-    weight: 13
+    weight: 310
+  - parent: 정보
+    name: 경험
+    url: experience/
+    weight: 320
   - name: 소식
     url: /#news
-    weight: 15
-  - name: 경험
-    url: experience/
-    weight: 20
+    weight: 410
