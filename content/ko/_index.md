@@ -4,18 +4,18 @@ title: "길민준의 포토폴리오"
 date: 2024-09-19
 type: landing
 
-design:
-  background:
-    color: black
-    image:
-      filename: nature.gif
-      filters:
-        brightness: 1.0
-      size: cover
-      poisiton: center
-      parallax: true
+# design:
+#   background:
+#     color: black
+#     image:
+#       filename: nature.gif
+#       filters:
+#         brightness: 1.0
+#       size: cover
+#       position: center
+#       parallax: true
   # Default section spacing
-  spacing: "6rem"
+spacing: "6rem"
 
 sections:
   - block: resume-biography-3
@@ -29,16 +29,16 @@ sections:
         url: uploads/instruction.pdf
     design:
       css_class: dark
-      # background:
-      #   color: black
-      #   image:
-      #     # Add your image background to `asssets/media/`.
-      #     filename: nature.gif
-      #     filters:
-      #       brightness: 1.0
-      #     size: cover
-      #     position: center
-      #     parallax: true
+      background:
+        color: black
+        image:
+          # Add your image background to `asssets/media/`.
+          filename: nature.gif
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: true
 
   - block: collection
     id: study
