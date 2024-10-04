@@ -1,8 +1,0 @@
-{{ define "main" }}
-  {{ .Content }}
-  <ul style="display: grid; padding: 20px;">
-    {{ range where site.RegularPages "Section" "study" }}
-      {{ .Render "card" }}
-    {{ end }}
-  </ul>
-{{ end }}
