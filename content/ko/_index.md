@@ -42,18 +42,6 @@ sections:
           parallax: true
 
   - block: collection
-    id: study
-    content:
-      title: 공부
-      filters:
-        folders:
-          - study 
-    design:
-      view: community/grid-card
-      fill_image: false
-      columns: 3
-
-  - block: collection
     id: project
     content:
       title: 프로젝트
@@ -66,6 +54,18 @@ sections:
           - project
     design:
       view: community/circle-card
+      fill_image: false
+      columns: 3
+
+  - block: collection
+    id: study
+    content:
+      title: 공부
+      filters:
+        folders:
+          - study 
+    design:
+      view: community/row-card
       fill_image: false
       columns: 3
 
