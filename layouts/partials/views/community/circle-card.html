@@ -16,9 +16,9 @@
     {{ with $resource }}
     {{ $image := "" }}
     {{if $fill_image}}
-      {{ $image = .Fill (printf "300x200 %s" $anchor) }}
+      {{ $image = .Fill (printf "960x540 %s" $anchor) }}
     {{else}}
-      {{ $image = .Fit (printf "300x200 %s" $anchor) }}
+      {{ $image = .Fit (printf "960x540 %s" $anchor) }}
     {{end}}
     {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
     
