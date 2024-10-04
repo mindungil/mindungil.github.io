@@ -33,7 +33,7 @@ sections:
         color: black
         image:
           # Add your image background to `asssets/media/`.
-          filename: nature.gif
+          filename: space.jpg
           filters:
             brightness: 1.0
           size: cover
