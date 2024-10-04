@@ -1,4 +1,8 @@
 ---
+title: 소식
+type: landing
+
+section:
   - block: collection
     content:
       title: 소식
