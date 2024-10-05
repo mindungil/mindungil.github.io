@@ -5,18 +5,15 @@ date: 2024-09-19
 type: landing
 design:
   background:
-    color: navy
-# design:
-#   background:
-#     color: black
-#     image:
-#       filename: nature.gif
-#       filters:
-#         brightness: 1.0
-#       size: cover
-#       position: center
-#       parallax: true
-  # Default section spacing
+    color: black
+    image:
+      filename: white.jpg
+      filters:
+        brightness: 1.0
+      size: cover
+      position: center
+      parallax: true
+  Default section spacing
 spacing: "6rem"
 
 sections:
