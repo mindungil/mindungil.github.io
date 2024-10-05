@@ -20,13 +20,13 @@ sections:
       is_education_first: false
   - block: markdown
     content:
-      title: 직장 또는 학교 위치
+      title: School map
       address:
-        street: 전북대학교
-        city: 전주시
-        region: 전라북도
+        street: Junbuk National University
+        city: Jeonju
+        region: Jeollabuk-do
         postcode: '54896'
-        country: 대한민국
+        country: Korea
         country_code: KO
       coordinates:
         latitude: '35.845757268789846'

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 길민준
+title: GILMINJUN
 
 # Name pronunciation (optional)
 name_pronunciation: GIL MINJUN
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 개발자
+role: Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -39,17 +39,17 @@ profiles:
     url: https://github.com/mindungil
 
 interests:
-  - 인공지능 (AI)
-  - 백엔드 프로그래밍
-  - 머신러닝 (ML)
+  - Artificial Intelligence(AI)
+  - Backend Programing
+  - Machine Learning(ML)
 
 education:
-  - area: 컴퓨터공학부
+  - area: Computer Engineering
     institution: JBNU University
     date_start: 2021-03-02
     date_end: 
     summary: |
-      전북대학교 컴퓨터공학부에 재학 중 입니다.
+      I attend to Junbuk National University
     button:
       text: 'Read Thesis'
       url: 'https://www.jbnu.ac.kr/'
@@ -57,7 +57,7 @@ education:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: 주 언어
+  - name: Programing Language
     items:
       - name: Python
         description: ''
@@ -71,33 +71,33 @@ skills:
         description: ''
         percent: 50
         icon: circle-stack
-  - name: 취미
+  - name: Hobby
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: 런닝
+      - name: Running
         description: ''
         percent: 50
         icon: person-simple-walk
-      - name: 게임
+      - name: Game
         description: ''
         percent: 40
         icon: computer
-      - name: 여행
+      - name: Trip
         description: ''
         percent: 40
         icon: camera
 
 languages:
-  - name: 한국어
+  - name: Korean
     percent: 100
-  - name: 영어
+  - name: English
     percent: 60
 
 ---
 
 ## About Me
 
-<h5>안녕하세요, 전북대학교 컴퓨터공학부에 재학중인 길민준 입니다.</h5>
-<h5>백엔드 개발자가 되기 위해 컴퓨터 프로그래밍을 열심히 공부하고 있습니다.</h5>
-<h5>재밌는 것들에 관심이 많습니다.</h5>
+<h5>Hello, I am Minjun Gil, a student at the Department of Computer Engineering at Chonbuk National University.</h5>
+<h5>I am studying computer programming hard to become a back-end developer.</h5>
+<h5>I'm very interested in fun things.</h5>
