@@ -1,5 +1,5 @@
 ---
-title: '백엔드 프로그래밍'
+title: 'Backend Programing'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -19,7 +19,7 @@ publishDate: '2017-01-01T00:00:00Z'
 # Publication name and optional abbreviated publication name.
 
 # Summary. An optional shortened abstract.
-summary: Back-end 공부를 하고 있습니다.
+summary: I studying Back-end Programing.
 
 tags:
   - Programing
@@ -56,8 +56,7 @@ slides: example
 
 <!-- {{< cta cta_text="관련 프로젝트" cta_link="/#project" cta_new_tab="false" >}} -->
 
+To become a backend developer, I am studying the backend technology stack.
 
-백엔드 개발자가 되기 위해, 백엔드 기술 스택을 공부 중 입니다.
-
-디자인 패턴, API 설계, 서버 등을 공부 중 입니다.
+I am studying design patterns, API design, servers, etc.
 
