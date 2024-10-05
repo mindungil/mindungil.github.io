@@ -1,4 +1,4 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# [길민준의 포토폴리오](https://github.com/HugoBlox/theme-academic-cv)
 
 [![Screenshot](.github/preview.webp)](https://mindungil.github.io/ko/)
 
