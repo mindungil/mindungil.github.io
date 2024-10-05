@@ -6,16 +6,16 @@ type: landing
 design:
   background:
     color: navy
-# design:
-#   background:
-#     color: black
-#     image:
-#       filename: nature.gif
-#       filters:
-#         brightness: 1.0
-#       size: cover
-#       position: center
-#       parallax: true
+design:
+  background:
+    color: black
+    image:
+      filename: space.jpg
+      filters:
+        brightness: 1.0
+      size: cover
+      position: center
+      parallax: true
   # Default section spacing
 spacing: "6rem"
 
@@ -33,15 +33,15 @@ sections:
       css_class: dark
       background:
         color: black
-        image:
-          # Add your image background to `asssets/media/`.
-          filename: space.jpg
-          # 사진: [unsplash] <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%95%BC%EA%B0%84%EC%9D%98-%EC%98%A4%EB%A1%9C%EB%9D%BC-R3pUGn5YiTg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@marceloquinan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marcelo Quinan</a>
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: true
+        # image:
+        #   # Add your image background to `asssets/media/`.
+        #   filename: space.jpg
+        #   # 사진: [unsplash] <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%95%BC%EA%B0%84%EC%9D%98-%EC%98%A4%EB%A1%9C%EB%9D%BC-R3pUGn5YiTg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@marceloquinan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marcelo Quinan</a>
+        #   filters:
+        #     brightness: 1.0
+        #   size: cover
+        #   position: center
+        #   parallax: true
   # - block: slider
   #   content:
   #     slides:
