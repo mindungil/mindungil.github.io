@@ -1,21 +1,21 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "길민준의 포토폴리오"
+title: "GILMINJUN's portfolio"
 date: 2024-09-19
 type: landing
 design:
   background:
     color: navy
-# design:
-#   background:
-#     color: black
-#     image:
-#       filename: nature.gif
-#       filters:
-#         brightness: 1.0
-#       size: cover
-#       position: center
-#       parallax: true
+design:
+  background:
+    color: black
+    image:
+      filename: white2.jpg
+      filters:
+        brightness: 1.0
+      size: cover
+      position: center
+      parallax: true
   # Default section spacing
 spacing: "6rem"
 
