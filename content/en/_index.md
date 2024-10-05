@@ -92,7 +92,7 @@ sections:
   - block: collection
     id: project
     content:
-      title: 프로젝트
+      title: Project
       text:
       offset: 0
       count: 3
@@ -108,7 +108,7 @@ sections:
   - block: collection
     id: study
     content:
-      title: 공부
+      title: Studys
       filters:
         folders:
           - study 
@@ -120,7 +120,7 @@ sections:
   - block: collection
     id: hobby
     content:
-      title: 취미
+      title: Hobby
       filters:
         folders:
           - hobby
@@ -131,7 +131,7 @@ sections:
   - block: collection
     id: news
     content:
-      title: 소식
+      title: News
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
