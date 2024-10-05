@@ -17,23 +17,6 @@ sections:
         folders:
           - hobby
     design:
-    ---
-title: Project
-type: landing
-
-sections:
-  - block: collection
-    id: project
-    content:
-      title: Project
-      text:
-      offset: 0
-      count: 3
-      order: desc
-      filters:
-        folders:
-          - project
-    design:
       background:
         image:
           # Add your image background to `asssets/media/`.
@@ -44,9 +27,6 @@ sections:
           size: cover
           position: center
           parallax: true
-      view: community/circle-card
-      fill_image: false
-      columns: 3
       view: article-grid
       columns: 3
 ---
