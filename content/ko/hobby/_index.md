@@ -1,5 +1,5 @@
 ---
-title: Hobby
+title: 취미
 summary: my hobby
 type: landing
 
