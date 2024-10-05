@@ -36,10 +36,6 @@
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/hobby/</loc>
-    <lastmod>2024-09-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/ko/tags/programing/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -47,20 +43,6 @@
     <loc>http://localhost:1313/ko/tags/programing-language/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/ko/study/</loc>
-    <lastmod>2024-09-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/study/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://localhost:1313/ko/study/"
-                />
   </url><url>
     <loc>http://localhost:1313/ko/tags/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
@@ -74,6 +56,20 @@
                 rel="alternate"
                 hreflang="ko"
                 href="http://localhost:1313/ko/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ko/study/</loc>
+    <lastmod>2024-09-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/study/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://localhost:1313/ko/study/"
                 />
   </url><url>
     <loc>http://localhost:1313/ko/hobby/book/</loc>
@@ -96,6 +92,10 @@
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/ko/hobby/</loc>
+    <lastmod>2024-09-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/ko/study/language/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,20 +103,6 @@
     <loc>http://localhost:1313/ko/post/page-started/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/ko/post/</loc>
-    <lastmod>2024-09-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/post/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://localhost:1313/ko/post/"
-                />
   </url><url>
     <loc>http://localhost:1313/ko/tags/hugo-blox/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
@@ -130,6 +116,20 @@
                 rel="alternate"
                 hreflang="ko"
                 href="http://localhost:1313/ko/tags/hugo-blox/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/ko/post/</loc>
+    <lastmod>2024-09-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="http://localhost:1313/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="http://localhost:1313/ko/post/"
                 />
   </url><url>
     <loc>http://localhost:1313/ko/</loc>
@@ -154,6 +154,18 @@
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/ko/project/project2/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/ko/project/project3/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/ko/project/project1/</loc>
+    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/ko/project/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -168,21 +180,6 @@
                 href="http://localhost:1313/ko/project/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ko/project/project2/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/ko/project/project3/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/ko/project/project1/</loc>
-    <lastmod>2024-09-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>http://localhost:1313/ko/slides/example-slides/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>http://localhost:1313/ko/publication_types/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link
@@ -195,8 +192,5 @@
                 hreflang="ko"
                 href="http://localhost:1313/ko/publication_types/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/ko/slides/</loc>
-    <changefreq>weekly</changefreq>
   </url>
 </urlset>
