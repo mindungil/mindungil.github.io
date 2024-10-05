@@ -46,37 +46,49 @@ sections:
   - block: slider
     content:
       slides:
-      - title: welcome
-        content: hello
+
+      - title: <span style="font-size:70%">H1</span>
+        content: <span style="font-size:70%">1</span>
         align: center
         background:
-          media: computer.jpg
-          filters:
-            brightness: 0.7
-          position: right
-          color: '#666'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
-        align: right
-        background:
-          media: nature.jpg
-          filters:
-            brightness: 0.5
+          image:
+            filename: background.jpg
+            filters:
+              brightness: 0.4
           position: center
-          color: '#333'
-        link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          # url: ../contact/
+          color: '#000'
+
+      - title: <span style="font-size:70%">2</span>
+        content: <span style="font-size:70%">2</span>
+        align: center
+        background:
+          image:
+            filename: computer.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
+      - title: <span style="font-size:70%">3</span>
+        content: <span style="font-size:70%">3</span>
+        align: center
+        background:
+          image:
+            filename: nature.jpg
+            filters:
+              brightness: 0.4
+          position: center
+          color: '#000'
+
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: ''
-      is_fullscreen: true
+      slide_height: '350px'
+      slide_width: '100px'
+      is_fullscreen: false
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
-      interval: 2000
+      interval: 3000
 
   - block: collection
     id: project
