@@ -40,9 +40,9 @@ projects:
   - example
 ---
 
-{{< cta cta_text="알고리즘 공부 페이지" cta_link="https://solved.ac/profile/soet02" cta_new_tab="true" >}}
+<!-- {{< cta cta_text="알고리즘 공부 페이지" cta_link="https://solved.ac/profile/soet02" cta_new_tab="true" >}}
 
-{{< cta cta_text="알고리즘 스터디" cta_link="https://github.com/mindungil/24ALPStudy" cta_new_tab="true" >}}
+{{< cta cta_text="알고리즘 스터디" cta_link="https://github.com/mindungil/24ALPStudy" cta_new_tab="true" >}} -->
 
 
 C++ 언어를 활용해서 알고리즘 공부를 하고 있습니다.
