@@ -13,7 +13,7 @@ design:
       size: cover
       position: center
       parallax: true
-  Default section spacing
+  # Default section spacing
 spacing: "6rem"
 
 sections:
