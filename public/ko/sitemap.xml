@@ -2,195 +2,195 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ko/experience/</loc>
+    <loc>https://mindungil.com/ko/experience/</loc>
     <lastmod>2024-10-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/experience/"
+                href="https://mindungil.com/en/experience/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/experience/"
+                href="https://mindungil.com/ko/experience/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ko/tags/algorithm/</loc>
+    <loc>https://mindungil.com/ko/tags/algorithm/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/tags/c&#43;&#43;/</loc>
+    <loc>https://mindungil.com/ko/tags/c&#43;&#43;/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/tags/calm/</loc>
+    <loc>https://mindungil.com/ko/tags/calm/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/tags/exercise/</loc>
+    <loc>https://mindungil.com/ko/tags/exercise/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/tags/flavor/</loc>
+    <loc>https://mindungil.com/ko/tags/flavor/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/tags/programing/</loc>
+    <loc>https://mindungil.com/ko/tags/programing/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/tags/programing-language/</loc>
+    <loc>https://mindungil.com/ko/tags/programing-language/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/tags/</loc>
+    <loc>https://mindungil.com/ko/tags/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/tags/"
+                href="https://mindungil.com/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/tags/"
+                href="https://mindungil.com/ko/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ko/study/</loc>
+    <loc>https://mindungil.com/ko/study/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/study/"
+                href="https://mindungil.com/en/study/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/study/"
+                href="https://mindungil.com/ko/study/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ko/hobby/book/</loc>
+    <loc>https://mindungil.com/ko/hobby/book/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/hobby/running/</loc>
+    <loc>https://mindungil.com/ko/hobby/running/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/hobby/food/</loc>
+    <loc>https://mindungil.com/ko/hobby/food/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/study/fullstack/</loc>
+    <loc>https://mindungil.com/ko/study/fullstack/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/study/algorithm/</loc>
+    <loc>https://mindungil.com/ko/study/algorithm/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/hobby/</loc>
+    <loc>https://mindungil.com/ko/hobby/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/study/language/</loc>
+    <loc>https://mindungil.com/ko/study/language/</loc>
     <lastmod>2024-09-30T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/post/page-started/</loc>
+    <loc>https://mindungil.com/ko/post/page-started/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/tags/hugo-blox/</loc>
-    <lastmod>2024-09-22T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="http://localhost:1313/en/tags/hugo-blox/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ko"
-                href="http://localhost:1313/ko/tags/hugo-blox/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/ko/post/</loc>
+    <loc>https://mindungil.com/ko/tags/hugo-blox/</loc>
     <lastmod>2024-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/post/"
+                href="https://mindungil.com/en/tags/hugo-blox/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/post/"
+                href="https://mindungil.com/ko/tags/hugo-blox/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ko/</loc>
+    <loc>https://mindungil.com/ko/post/</loc>
+    <lastmod>2024-09-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://mindungil.com/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ko"
+                href="https://mindungil.com/ko/post/"
+                />
+  </url><url>
+    <loc>https://mindungil.com/ko/</loc>
     <lastmod>2024-09-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/"
+                href="https://mindungil.com/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/"
+                href="https://mindungil.com/ko/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ko/tags/express/</loc>
+    <loc>https://mindungil.com/ko/tags/express/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/tags/node.js/</loc>
+    <loc>https://mindungil.com/ko/tags/node.js/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/project/project2/</loc>
+    <loc>https://mindungil.com/ko/project/project2/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/project/project3/</loc>
+    <loc>https://mindungil.com/ko/project/project3/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/project/project1/</loc>
+    <loc>https://mindungil.com/ko/project/project1/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>http://localhost:1313/ko/project/</loc>
+    <loc>https://mindungil.com/ko/project/</loc>
     <lastmod>2024-09-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/project/"
+                href="https://mindungil.com/en/project/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/project/"
+                href="https://mindungil.com/ko/project/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ko/publication_types/</loc>
+    <loc>https://mindungil.com/ko/publication_types/</loc>
     <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="http://localhost:1313/en/publication_types/"
+                href="https://mindungil.com/en/publication_types/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="http://localhost:1313/ko/publication_types/"
+                href="https://mindungil.com/ko/publication_types/"
                 />
   </url>
 </urlset>
