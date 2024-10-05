@@ -30,5 +30,5 @@ main:
     url: experience/
     weight: 320
   - name: 소식
-    url: post/
+    url: /#news
     weight: 400
