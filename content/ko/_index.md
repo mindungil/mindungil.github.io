@@ -47,25 +47,25 @@ sections:
     content:
       slides:
 
-      - title: <span style="font-size:70%">H1</span>
+      - title: <span style="font-size:70%">안녕</span>
         content: <span style="font-size:70%">1</span>
         align: center
         background:
           image:
             filename: background.jpg
             filters:
-              brightness: 0.4
+              brightness: 1.0
           position: center
           color: '#000'
 
-      - title: <span style="font-size:70%">2</span>
+      - title: <span style="font-size:70%">안녕하세요</span>
         content: <span style="font-size:70%">2</span>
         align: center
         background:
           image:
             filename: computer.jpg
             filters:
-              brightness: 0.4
+              brightness: 1.0
           position: center
           color: '#000'
 
@@ -76,7 +76,7 @@ sections:
           image:
             filename: nature.jpg
             filters:
-              brightness: 0.4
+              brightness: 1.0
           position: center
           color: '#000'
 
@@ -84,7 +84,7 @@ sections:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
       slide_width: '100px'
-      is_fullscreen: false
+      is_fullscreen: true
       # Automatically transition through slides?
       loop: true
       # Duration of transition between slides (in ms)
