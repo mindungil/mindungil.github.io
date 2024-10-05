@@ -6,19 +6,24 @@
 main:
   - name: Bio
     url: /
-    weight: 10
-  - name: study
-    url: /#study
-    weight: 11
-  - name: projects
-    url: /#project
-    weight: 13
-  - name: News
-    url: /#news 
-    weight: 15
-  - name: Experience
-    url: experience/
-    weight: 20
+    weight: 100
+  - name: Project
+    url: 프로젝트
+    weight: 200
+  - parent: Project
+    name: Study
+    url: study/
+    weight: 210
+  - parent: Project
+    name: project
+    url: project/
+    weight: 220
   - name: hobby
-    url: teaching/
-    weight: 40
+    url: hobby/
+    weight: 300
+  - name: experience
+    url: experience/
+    weight: 400
+  - name: news
+    url: /#news
+    weight: 500
