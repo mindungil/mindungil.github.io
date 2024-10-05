@@ -7,8 +7,8 @@ design:
   background:
     color: black
     image:
-      filename: white2.jpg
-      # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%ED%95%98%EB%8A%98%EC%9D%84-%EB%82%98%EB%8A%94-%EA%B2%80%EC%9D%80-%EC%83%88-%EB%8B%A4%EC%84%AF-%EB%A7%88%EB%A6%AC-WRST5Pops3E?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@megs7171?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Megha Ajith</a>
+      filename: snow.jpg
+      # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%82%98%EB%AC%B4%EC%99%80-%EB%8D%A4%EB%B6%88%EC%9D%B4-%EC%9E%88%EB%8A%94-%EB%88%88-%EB%8D%AE%EC%9D%B8-%EC%96%B8%EB%8D%95-OcydRu0QaRU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@lauraadaiphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">laura adai</a>
       filters:
         brightness: 1.0
       size: cover
