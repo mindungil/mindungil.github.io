@@ -1,11 +1,11 @@
 ---
-title: 소식
+title: News
 type: landing
 
 section:
   - block: collection
     content:
-      title: 소식
+      title: News
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...

@@ -1,5 +1,5 @@
 ---
-title: '알고리즘'
+title: 'Algorithm'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -11,7 +11,7 @@ authors:
 date: '2024-09-30'
 
 # Summary. An optional shortened abstract.
-summary:  알고리즘을 공부하고 있습니다.
+summary:  I have studying Algorithm.
 
 tags:
   - Algorithm
@@ -45,8 +45,8 @@ projects:
 {{< cta cta_text="알고리즘 스터디" cta_link="https://github.com/mindungil/24ALPStudy" cta_new_tab="true" >}} -->
 
 
-C++ 언어를 활용해서 알고리즘 공부를 하고 있습니다.
+I am studying using the C++ language.
 
-현재는 스티디를 병행하여 공부 중 입니다.
+I am currently studying using Stidi.
 
-목표는 **알고리즘 대회 입상** 및 **기업 코딩테스트 대비** 를 준비하는 것 입니다.
+The goal is to prepare you for **Algorithm Challenge Entry** and **Test Control for Enterprise**.

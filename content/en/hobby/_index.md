@@ -1,5 +1,5 @@
 ---
-title: 취미
+title: Hobby
 summary: my hobby
 type: landing
 
@@ -12,7 +12,7 @@ cascade:
 sections:
   - block: collection
     content:
-      title: 취미
+      title: Hobby
       filters:
         folders:
           - hobby

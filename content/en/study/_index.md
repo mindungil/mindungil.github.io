@@ -1,5 +1,5 @@
 ---
-title: 공부
+title: Study
 cms_exclude: true
 
 # View.

@@ -1,12 +1,12 @@
 ---
-title: 프로젝트
+title: Project
 type: landing
 
 sections:
   - block: collection
     id: project
     content:
-      title: 프로젝트
+      title: Project
       text:
       offset: 0
       count: 3
