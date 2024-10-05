@@ -179,3 +179,6 @@ sections:
   #       css_class: "bg-primary-700"
   #       css_style: ""
 ---
+
+<link rel="icon" href="img/logo/favicon.png"/> 
+<link rel="apple-touch-icon" href="img/logo/favicon.png"/> 
