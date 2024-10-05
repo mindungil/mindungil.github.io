@@ -42,53 +42,52 @@ sections:
           size: cover
           position: center
           parallax: true
+  # - block: slider
+  #   content:
+  #     slides:
 
-  - block: slider
-    content:
-      slides:
+  #     - title: <span style="font-size:70%">안녕</span>
+  #       content: <span style="font-size:70%">1</span>
+  #       align: center
+  #       background:
+  #         image:
+  #           filename: background.jpg
+  #           filters:
+  #             brightness: 1.0
+  #         position: center
+  #         color: '#000'
 
-      - title: <span style="font-size:70%">안녕</span>
-        content: <span style="font-size:70%">1</span>
-        align: center
-        background:
-          image:
-            filename: background.jpg
-            filters:
-              brightness: 1.0
-          position: center
-          color: '#000'
+  #     - title: <span style="font-size:70%">안녕하세요</span>
+  #       content: <span style="font-size:70%">2</span>
+  #       align: center
+  #       background:
+  #         image:
+  #           filename: computer.jpg
+  #           filters:
+  #             brightness: 1.0
+  #         position: center
+  #         color: '#000'
 
-      - title: <span style="font-size:70%">안녕하세요</span>
-        content: <span style="font-size:70%">2</span>
-        align: center
-        background:
-          image:
-            filename: computer.jpg
-            filters:
-              brightness: 1.0
-          position: center
-          color: '#000'
+  #     - title: <span style="font-size:70%">3</span>
+  #       content: <span style="font-size:70%">3</span>
+  #       align: center
+  #       background:
+  #         image:
+  #           filename: nature.jpg
+  #           filters:
+  #             brightness: 1.0
+  #         position: center
+  #         color: '#000'
 
-      - title: <span style="font-size:70%">3</span>
-        content: <span style="font-size:70%">3</span>
-        align: center
-        background:
-          image:
-            filename: nature.jpg
-            filters:
-              brightness: 1.0
-          position: center
-          color: '#000'
-
-    design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '350px'
-      slide_width: '100px'
-      is_fullscreen: true
-      # Automatically transition through slides?
-      loop: true
-      # Duration of transition between slides (in ms)
-      interval: 3000
+  #   design:
+  #     # Slide height is automatic unless you force a specific height (e.g. '400px')
+  #     slide_height: '350px'
+  #     slide_width: '100px'
+  #     is_fullscreen: true
+  #     # Automatically transition through slides?
+  #     loop: true
+  #     # Duration of transition between slides (in ms)
+  #     interval: 3000
 
   - block: collection
     id: project
@@ -179,6 +178,3 @@ sections:
   #       css_class: "bg-primary-700"
   #       css_style: ""
 ---
-
-<link rel="icon" href="img/logo/favicon.png"/> 
-<link rel="apple-touch-icon" href="img/logo/favicon.png"/> 
