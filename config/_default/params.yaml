@@ -14,7 +14,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: '전북대 길민준의 포토폴리오'
-    description: 'i"am GILMINJUN attendding JunBuk university'
+    description: '전북대학교 재학중인 길민준 입니다.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
@@ -58,3 +58,7 @@ features:
     enable: true
   privacy_pack:
     enable: true
+  map:
+    provider: "google"
+    api_key: ""
+    zoom: 15
