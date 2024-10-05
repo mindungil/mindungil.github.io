@@ -11,7 +11,6 @@ cascade:
 
 sections:
   - block: collection
-    id: hobby
     content:
       title: 취미
       filters:
