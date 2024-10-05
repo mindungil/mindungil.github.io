@@ -35,8 +35,8 @@ sections:
         color: black
         image:
           # Add your image background to `asssets/media/`.
-          filename: space.jpg
-          # 사진: [unsplash] <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%95%BC%EA%B0%84%EC%9D%98-%EC%98%A4%EB%A1%9C%EB%9D%BC-R3pUGn5YiTg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@marceloquinan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Marcelo Quinan</a>
+          filename: black.jpg
+          # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%82%B0%EB%A7%A5-%EC%9C%84%EC%9D%98-%EB%B3%84%EC%9D%B4-%EC%9E%88%EB%8A%94-%EB%B0%A4%ED%95%98%EB%8A%98-b1fuDczpg9c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@moisesr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Moises Rodriguez</a>
           filters:
             brightness: 1.0
           size: cover
