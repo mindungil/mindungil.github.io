@@ -1,5 +1,5 @@
 ---
-title: '프로그래밍 언어'
+title: 'Programing Language'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -12,7 +12,7 @@ doi: ''
 
 # Schedule page publish date (NOT publication's date).
 # Summary. An optional shortened abstract.
-summary: 다양한 언어를 공부하고 있습니다.
+summary: I am studying various languages.
 
 tags:
   - Programing Language
@@ -47,12 +47,12 @@ projects:
 slides: example
 ---
 
-한 가지 언어만 공부하지 않고 여러 언어를 배우려고 합니다.
+Instead of just studying one language, I try to learn multiple languages.
 
-기술의 흐름을 따라잡기 위해 미리 유용한 여러 언어를 배우며, 
+Learn several useful languages ​​in advance to keep up with the flow of technology, 
 
-주력 언어를 정해 집중을 하고 있습니다.
+We are concentrating on our main language.
 
-현재는 **TypeScript**를 공부 중 입니다.
+I am currently studying **TypeScript**.
 
-<!-- {{< cta cta_text="TypeScript 연습 페이지" cta_link="https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts" cta_new_tab="true" >}} -->
+{{< cta cta_text="TypeScript 연습 페이지" cta_link="https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts" cta_new_tab="true" >}}
