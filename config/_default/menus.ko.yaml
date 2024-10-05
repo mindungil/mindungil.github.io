@@ -18,17 +18,12 @@ main:
     name: 작업물
     url: project/
     weight: 220
-  - name: 정보
-    url: 정보
-    weight: 300
-  - parent: 정보
-    name: 취미
+  - name: 취미
     url: hobby/
-    weight: 310
-  - parent: 정보
-    name: 경험
+    weight: 300
+  - name: 경험
     url: experience/
-    weight: 320
+    weight: 400
   - name: 소식
     url: /#news
-    weight: 400
+    weight: 500
