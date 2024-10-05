@@ -50,36 +50,34 @@ sections:
         content: hello
         align: center
         background:
-          image:
-            filename: background.jpg
-            filters:
-              brightness: 0.7
-          poisition: right
+          media: computer.jpg
+          filters:
+            brightness: 0.7
+          position: right
           color: '#666'
       - title: World-Class Semiconductor Lab
         content: 'Just opened last month!'
         align: right
         background:
-          image:
-            filename: welcome.jpg
-            filters:
-              brightness: 0.5
+          media: nature.jpg
+          filters:
+            brightness: 0.5
           position: center
           color: '#333'
         link:
           icon: graduation-cap
           icon_pack: fas
           text: Join Us
-          url: ../contact/
+          # url: ../contact/
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
       # Automatically transition through slides?
-      loop: false
+      loop: true
       # Duration of transition between slides (in ms)
       interval: 2000
-      
+
   - block: collection
     id: project
     content:
