@@ -54,7 +54,7 @@ projects:
 slides: example
 ---
 
-<!-- {{< cta cta_text="관련 프로젝트" cta_link="/#project" cta_new_tab="false" >}} -->
+{{< cta cta_text="관련 프로젝트" cta_link="/#project" cta_new_tab="false" >}}
 
 To become a backend developer, I am studying the backend technology stack.
 
