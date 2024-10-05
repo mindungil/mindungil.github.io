@@ -7,8 +7,8 @@ design:
   background:
     color: black
     image:
-      filename: snow.jpg
-      # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%82%98%EB%AC%B4%EC%99%80-%EB%8D%A4%EB%B6%88%EC%9D%B4-%EC%9E%88%EB%8A%94-%EB%88%88-%EB%8D%AE%EC%9D%B8-%EC%96%B8%EB%8D%95-OcydRu0QaRU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@lauraadaiphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">laura adai</a>
+      filename: flower.jpg
+      # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%85%B9%EC%83%89-%EC%9E%8E-%EC%8B%9D%EB%AC%BC-2zDw14yCYqk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@alexlvrs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alex Lvrs</a>
       filters:
         brightness: 1.0
       size: cover
