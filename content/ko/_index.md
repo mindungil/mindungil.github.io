@@ -10,7 +10,7 @@ design:
       filename: cat.jpg
       # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%85%B9%EC%83%89-%EC%9E%8E-%EC%8B%9D%EB%AC%BC-2zDw14yCYqk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@alexlvrs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alex Lvrs</a>
       filters:
-        brightness: 1.0
+        brightness: 1.5
       size: cover
       position: center
       parallax: true
