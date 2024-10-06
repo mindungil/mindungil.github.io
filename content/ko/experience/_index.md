@@ -4,6 +4,14 @@ date: 2024-10-04
 type: landing
 
 design:
+  background: 
+    image:
+      filename: "cat.jpg"
+      filters:
+          brightness: 1.0
+          size: cover
+          position: center
+          parallax: true
   spacing: '5rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
