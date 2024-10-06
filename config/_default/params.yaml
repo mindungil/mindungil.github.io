@@ -36,7 +36,7 @@ header:
     show_theme_chooser: true
     logo:
       text: "GILMINJUN"
-      image: 'name.jpg'
+      filename: 'name.jpg'
 
 # Site footer
 footer:
