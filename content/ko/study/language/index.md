@@ -55,4 +55,4 @@ slides: example
 
 현재는 **TypeScript**를 공부 중 입니다.
 
-<!-- {{< cta cta_text="TypeScript 연습 페이지" cta_link="https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts" cta_new_tab="true" >}} -->
+{{< cta cta_text="TypeScript 연습 페이지" cta_link="https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts" cta_new_tab="true" >}}
