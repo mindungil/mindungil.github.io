@@ -1,6 +1,6 @@
 ---
 title: 공부
-cms_exclude: true
+type: landing
 
 sections:
   - block: collection
