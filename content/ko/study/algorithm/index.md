@@ -1,5 +1,5 @@
 ---
-title: '알고리즘'
+title: '인공지능'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -11,11 +11,11 @@ authors:
 date: '2024-09-30'
 
 # Summary. An optional shortened abstract.
-summary:  알고리즘을 공부하고 있습니다.
+summary:  AI 공부.
 
 tags:
-  - Algorithm
-  - C++
+  - AI
+  - ML
 
 # Display this page in the Featured widget?
 featured: true
@@ -40,13 +40,8 @@ projects:
   - example
 ---
 
-{{< cta cta_text="알고리즘 공부 페이지" cta_link="https://solved.ac/profile/soet02" cta_new_tab="true" >}}
+AI에 대해 공부하고 있습니다.
 
-{{< cta cta_text="알고리즘 스터디" cta_link="https://github.com/mindungil/24ALPStudy" cta_new_tab="true" >}}
+머신러닝 및 딥러닝을 공부하는 중 입니다.
 
-
-C++ 언어를 활용해서 알고리즘 공부를 하고 있습니다.
-
-현재는 스티디를 병행하여 공부 중 입니다.
-
-목표는 **알고리즘 대회 입상** 및 **기업 코딩테스트 대비** 를 준비하는 것 입니다.
+목표는 **Kaggle 메달 획득득** 및 **LLM 관련 프로젝트트** 를 준비하는 것 입니다.

@@ -7,7 +7,7 @@ design:
   background:
     color: black
     image:
-      filename: black.jpg
+      filename: cat.jpg
       # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EB%85%B9%EC%83%89-%EC%9E%8E-%EC%8B%9D%EB%AC%BC-2zDw14yCYqk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@alexlvrs?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Alex Lvrs</a>
       filters:
         brightness: 1.0
@@ -33,7 +33,7 @@ sections:
         color: black
         image:
           # Add your image background to `asssets/media/`.
-          filename: black.jpg
+          filename: cat.jpg
           # 사진: <a href="https://unsplash.com/ko/%EC%82%AC%EC%A7%84/%EC%82%B0%EB%A7%A5-%EC%9C%84%EC%9D%98-%EB%B3%84%EC%9D%B4-%EC%9E%88%EB%8A%94-%EB%B0%A4%ED%95%98%EB%8A%98-b1fuDczpg9c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>의<a href="https://unsplash.com/ko/@moisesr?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Moises Rodriguez</a>
           filters:
             brightness: 1.0

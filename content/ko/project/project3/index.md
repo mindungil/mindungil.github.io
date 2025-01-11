@@ -1,11 +1,11 @@
 ---
 title: 포토폴리오 사이트
 date: 2024-09-01
-external_link: https://github.com/mindungil/mindungil.github.io
+external_link: https://github.com/mindungil/reqruitment-server
 tags:
   - hugo
 ---
 
-hugo를 활용해 포토폴리오 사이트를 만들었습니다.
+Express.js 및 Python을 통한 웹 크롤링을 활용하여 구인구직 서버를 개발했습니다.
 
 <!--more-->
