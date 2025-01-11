@@ -28,9 +28,9 @@ sections:
         text: Download CV
         url: uploads/instruction.pdf
     design:
-      css_class: white
+      css_class: dark
       background:
-        color: black
+        color: white
         image:
           # Add your image background to `asssets/media/`.
           filename: cat.jpg
