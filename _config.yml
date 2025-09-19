@@ -16,7 +16,7 @@ timezone:
 
 title: 개발길로그 # the main title
 
-tagline: 반갑습니다 # it will display as the subtitle
+tagline: 개발걸을걷는길 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   공부한 내용이나 일상을 기록한 블로그입니다.
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/main_profile.jpeg # string, local or CORS resources
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
