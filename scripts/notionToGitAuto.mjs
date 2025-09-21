@@ -34,6 +34,8 @@ const TITLE_KEYS = (process.env.TITLE_KEYS || "제목,Title,Name")
 const DATE_PROP = process.env.DATE_PROP || "생성일";
 const DEPLOY_PROP = process.env.DEPLOY_PROP || "배포"; // 체크박스 이름
 const TAG_PROP = process.env.TAG_PROP || "태그"; // 선택
+const CATEGORY_PRIMARY_PROP = process.env.CATEGORY_PRIMARY_PROP || "카테고리";
+const CATEGORY_SECONDARY_PROP = process.env.CATEGORY_SECONDARY_PROP || "분류";
 
 process.env.TZ = TZ;
 
@@ -181,6 +183,17 @@ async function pageToMarkdown(pageId) {
   return typeof md === "string" ? md : md.parent;
 }
 
+function getSelectOrMultiNames(props, propName) {
+  const p = props?.[propName];
+  if (!p) return [];
+  if (p.multi_select?.length) return p.multi_select.map((t) => t.name);
+  const s = p.select?.name;
+  return s ? [s] : [];
+}
+function uniq(arr) {
+  return [...new Set(arr.filter(Boolean))];
+}
+
 // 배포 대상(배포 체크 true)만 조회
 async function queryDeployQueue() {
   const pages = [];
@@ -222,6 +235,19 @@ async function run() {
     const dateForFrontMatter = toJekyllDateTime(dateRaw);
     const dateForFile = ymd(dateRaw);
     const year = y(dateRaw);
+
+    // ── 카테고리/태그 (카테고리=대분류, 분류=소분류)
+    const catsPrimary = getSelectOrMultiNames(props, CATEGORY_PRIMARY_PROP); // 예: ["일상"]
+    const catsSecondary = getSelectOrMultiNames(props, CATEGORY_SECONDARY_PROP); // 예: ["블로그"]
+    // Chirpy 권장 구조: [대분류, 소분류] 최대 2개
+    const categoriesArr = uniq([catsPrimary[0], catsSecondary[0]]).slice(0, 2);
+
+    // 태그: 멀티셀렉트 기준 (보조로 "Tags"/"Tag"도 읽음)
+    const tagsArr = uniq([
+      ...getSelectOrMultiNames(props, TAG_PROP),
+      ...getSelectOrMultiNames(props, "Tags"),
+      ...getSelectOrMultiNames(props, "Tag"),
+    ]);
 
     // ── 본문 MD
     let contentMd = await pageToMarkdown(pageId);
@@ -287,6 +313,8 @@ async function run() {
       date: existingFm.date || dateForFrontMatter, // 기존 파일이 있으면 날짜 유지(수정 시 permalink 안정)
       img_path: imgPathFront,
       image: coverFileName ? { path: coverFileName, alt: coverAlt } : undefined,
+      categories: categoriesArr.length ? categoriesArr : undefined,
+      tags: tagsArr.length ? tagsArr : undefined,
       notion_id: pageId,
       notion_last_edited: page.last_edited_time,
       // tags/categories/author/math/toc 등이 필요하면 아래에 추가 가능
