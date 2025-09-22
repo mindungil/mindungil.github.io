@@ -31,7 +31,7 @@ jobs:
 
       - name: Run Notion → Markdown (deploy-queue only)
         env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_TOKEN: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
           TIMEZONE: Asia/Seoul
           POSTS_DIR: _posts
