@@ -7,11 +7,15 @@ import slugify from "slugify";
 import dayjs from "dayjs";
 import yaml from "js-yaml";
 
+import { configDotenv } from "dotenv";
+
+configDotenv();
+
 // ──────────────────────────────────────────────────────────────
 // 환경 변수
 // ──────────────────────────────────────────────────────────────
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
-const DB_ID = process.env.NOTION_DATABASE_ID;
+const DB_ID = process.env.NOTION_DATABASE_ID; // ⚠️ 여기에는 이미 data_source_id 가 들어있음
 const TZ = process.env.TIMEZONE || "Asia/Seoul";
 const POSTS_DIR = process.env.POSTS_DIR || "_posts";
 const ASSET_DIR = process.env.ASSET_DIR || "assets/img/for_post";
@@ -33,11 +37,12 @@ process.env.TZ = TZ;
 // ──────────────────────────────────────────────────────────────
 // Notion 클라이언트 + 헬퍼
 // ──────────────────────────────────────────────────────────────
-const notion = new Client({ auth: NOTION_TOKEN });
+const notion = new Client({ auth: NOTION_TOKEN, notionVersion: "2025-09-03" });
 
-async function queryDatabase(databaseId, body = {}) {
+// 🔥 여기 수정됨
+async function queryDatabase(dataSourceId, body = {}) {
   return notion.request({
-    path: `/databases/${databaseId}/query`,
+    path: `data_sources/${dataSourceId}/query`, // ✅ data_sources 사용
     method: "POST",
     body,
   });
@@ -45,14 +50,14 @@ async function queryDatabase(databaseId, body = {}) {
 
 async function getPage(pageId) {
   return notion.request({
-    path: `/pages/${pageId}`,
+    path: `pages/${pageId}`,
     method: "GET",
   });
 }
 
 async function updatePage(pageId, body) {
   return notion.request({
-    path: `/pages/${pageId}`,
+    path: `pages/${pageId}`,
     method: "PATCH",
     body,
   });
