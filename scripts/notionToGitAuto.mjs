@@ -6,7 +6,6 @@ import { NotionToMarkdown } from "notion-to-md";
 import slugify from "slugify";
 import dayjs from "dayjs";
 import yaml from "js-yaml";
-
 import { configDotenv } from "dotenv";
 
 configDotenv();
@@ -15,7 +14,7 @@ configDotenv();
 // 환경 변수
 // ──────────────────────────────────────────────────────────────
 const NOTION_TOKEN = process.env.NOTION_TOKEN;
-const DB_ID = process.env.NOTION_DATABASE_ID; // ⚠️ 여기에는 이미 data_source_id 가 들어있음
+const DB_ID = process.env.NOTION_DATABASE_ID; // data_source_id 가 들어있음
 const TZ = process.env.TIMEZONE || "Asia/Seoul";
 const POSTS_DIR = process.env.POSTS_DIR || "_posts";
 const ASSET_DIR = process.env.ASSET_DIR || "assets/img/for_post";
@@ -35,14 +34,11 @@ const CATEGORY_SECONDARY_PROP = process.env.CATEGORY_SECONDARY_PROP || "분류";
 process.env.TZ = TZ;
 
 // ──────────────────────────────────────────────────────────────
-// Notion 클라이언트 + 헬퍼
-// ──────────────────────────────────────────────────────────────
 const notion = new Client({ auth: NOTION_TOKEN, notionVersion: "2025-09-03" });
 
-// 🔥 여기 수정됨
 async function queryDatabase(dataSourceId, body = {}) {
   return notion.request({
-    path: `data_sources/${dataSourceId}/query`, // ✅ data_sources 사용
+    path: `data_sources/${dataSourceId}/query`,
     method: "POST",
     body,
   });
@@ -92,9 +88,6 @@ function toSlugFromTitle(title) {
 
 function ymd(dateStr) {
   return dayjs(dateStr).format("YYYY-MM-DD");
-}
-function y(dateStr) {
-  return dayjs(dateStr).format("YYYY");
 }
 function toJekyllDateTime(dateStr) {
   return dayjs(dateStr).format("YYYY-MM-DD HH:mm:ss ZZ");
@@ -168,19 +161,12 @@ function readFrontMatter(filePath) {
   return { fm, body };
 }
 
-function findExistingPostFileByNotionIdOrSlug(pageId, slug) {
+// ✅ 노션 ID 의존 제거: slug 기준으로만 기존 파일 탐색
+function findExistingPostFileBySlug(slug) {
   if (!fs.existsSync(POSTS_DIR)) return null;
   const files = fs
     .readdirSync(POSTS_DIR)
     .filter((f) => f.toLowerCase().endsWith(".md"));
-
-  for (const f of files) {
-    const full = path.join(POSTS_DIR, f);
-    try {
-      const { fm } = readFrontMatter(full);
-      if (fm?.notion_id === pageId) return full;
-    } catch {}
-  }
 
   const suffix = `-${slug}.md`;
   const hit = files.find((f) => f.endsWith(suffix));
@@ -237,6 +223,9 @@ async function run() {
   const deployPages = await queryDeployQueue();
   let changed = 0;
 
+  // 웹 경로용(슬래시 고정) ASSET DIR
+  const ASSET_DIR_WEB = ASSET_DIR.split(path.sep).join("/");
+
   for (const p of deployPages) {
     const pageId = p.id;
     const page = await getPage(pageId);
@@ -244,10 +233,11 @@ async function run() {
 
     const title = getTitle(props);
     const slug = toSlugFromTitle(title);
+
     const dateRaw = props[DATE_PROP]?.date?.start || p.created_time;
     const dateForFrontMatter = toJekyllDateTime(dateRaw);
+    const lastModForFrontMatter = toJekyllDateTime(page.last_edited_time);
     const dateForFile = ymd(dateRaw);
-    const year = y(dateRaw);
 
     const catsPrimary = getSelectOrMultiNames(props, CATEGORY_PRIMARY_PROP);
     const catsSecondary = getSelectOrMultiNames(props, CATEGORY_SECONDARY_PROP);
@@ -259,38 +249,32 @@ async function run() {
       ...getSelectOrMultiNames(props, "Tag"),
     ]);
 
+    // 본문 MD
     let contentMd = await pageToMarkdown(pageId);
 
-    const existingFile = findExistingPostFileByNotionIdOrSlug(pageId, slug);
-    let existingFm = {};
-    if (existingFile) {
-      try {
-        existingFm = readFrontMatter(existingFile).fm || {};
-      } catch {}
-    }
+    // 기존 파일(슬러그 기준) 탐색
+    const existingFile = findExistingPostFileBySlug(slug);
 
-    const imgPathFront =
-      existingFm.img_path || `/${ASSET_DIR}/${year}/${slug}/`;
-    const postAssetDir = path.join(ASSET_DIR, year, slug);
-    ensureDir(postAssetDir);
+    // 이미지 저장 경로: assets/img/for_post/{slug}/
+    const postAssetDirFs = path.join(ASSET_DIR, slug);
+    ensureDir(postAssetDirFs);
+    const imgBaseWeb = `/${ASSET_DIR_WEB}/${slug}/`;
 
-    let coverFileName = null;
-    let coverAlt = "";
+    // 표지 다운로드 (사용 시 파일만 저장, FM에는 기록 안 함)
     if (DOWNLOAD_COVER && page.cover) {
       const coverUrl = page.cover?.file?.url || page.cover?.external?.url;
       if (coverUrl) {
-        const name = await saveImageFromUrl(coverUrl, postAssetDir, "cover");
-        if (name) coverFileName = name;
+        await saveImageFromUrl(coverUrl, postAssetDirFs, "cover");
       }
     }
 
+    // 본문 내 원격 이미지 로컬화 + 경로 치환
     const urlPattern = /!\[([^\]]*)\]\((\s*<?([^)\s]+)>?)(?:\s+"[^"]*")?\)/g;
     let match;
     let imgIndex = 1;
     const replacements = new Map();
 
     while ((match = urlPattern.exec(contentMd)) !== null) {
-      const alt = match[1];
       const url = match[3];
       if (!/^https?:\/\//i.test(url)) continue;
       if (replacements.has(url)) continue;
@@ -298,28 +282,22 @@ async function run() {
       const base = `${dayjs(dateRaw).format("YYYYMMDD")}-${slug}-${String(
         imgIndex++
       ).padStart(2, "0")}`;
-      const localName = await saveImageFromUrl(url, postAssetDir, base);
+      const localName = await saveImageFromUrl(url, postAssetDirFs, base);
       if (localName) {
         replacements.set(url, localName);
-        if (!coverFileName) {
-          coverFileName = localName;
-          coverAlt = coverAlt || alt || "";
-        }
       }
     }
     for (const [from, localName] of replacements.entries()) {
-      contentMd = contentMd.split(from).join(`{{ page.img_path }}${localName}`);
+      contentMd = contentMd.split(from).join(`${imgBaseWeb}${localName}`);
     }
 
+    // ✅ Front Matter: 최소 Jekyll 포맷만 유지
     const fmObj = {
       title,
-      date: existingFm.date || dateForFrontMatter,
-      img_path: imgPathFront,
-      image: coverFileName ? { path: coverFileName, alt: coverAlt } : undefined,
+      date: dateForFrontMatter,
+      lastmod: lastModForFrontMatter,
       categories: categoriesArr.length ? categoriesArr : undefined,
       tags: tagsArr.length ? tagsArr : undefined,
-      notion_id: pageId,
-      notion_last_edited: page.last_edited_time,
     };
     Object.keys(fmObj).forEach((k) => {
       const v = fmObj[k];
@@ -332,9 +310,11 @@ async function run() {
       }
     });
 
-    const fmYaml = yaml.dump(fmObj, { lineWidth: 100 });
+    // 배열 한 줄(flow style)로 출력
+    const fmYaml = yaml.dump(fmObj, { lineWidth: 100, flowLevel: 1 });
     const finalMd = `---\n${fmYaml}---\n\n${contentMd}\n`;
 
+    // 파일 경로: _posts/YYYY-MM-DD-{slug}.md (slug 형식 유지)
     const targetPath =
       existingFile || path.join(POSTS_DIR, `${dateForFile}-${slug}.md`);
 
@@ -351,6 +331,7 @@ async function run() {
       console.log(`↔  No change: ${targetPath}`);
     }
 
+    // 처리 후 배포 체크 해제
     try {
       await updatePage(pageId, {
         properties: { [DEPLOY_PROP]: { checkbox: false } },
