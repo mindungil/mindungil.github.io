@@ -21,7 +21,7 @@ const ASSET_DIR = process.env.ASSET_DIR || "assets/img/for_post";
 const DOWNLOAD_COVER =
   (process.env.DOWNLOAD_COVER || "true").toLowerCase() === "true";
 
-const TITLE_KEYS = (process.env.TITLE_KEYS || "제목,Title,Name,title,name")
+const TITLE_KEYS = (process.env.TITLE_KEYS || "제목,이름,Title,Name,title,name")
   .split(",")
   .map((s) => s.trim())
   .filter(Boolean);
