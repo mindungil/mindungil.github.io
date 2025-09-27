@@ -85,7 +85,13 @@ function getTitle(props) {
 }
 
 function toSlugFromTitle(title) {
-  return slugify(title || "post", { lower: true, strict: true, trim: true });
+  return slugify(title || "post", {
+    lower: true,
+    locale: "ko",
+    remove: /[*+~.()'"!:@]/g,
+    strict: true,
+    trim: true,
+  });
 }
 
 function ymd(dateStr) {
