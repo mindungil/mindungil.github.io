@@ -37,7 +37,7 @@ const notion = new Client({ auth: NOTION_TOKEN });
 
 async function queryDatabase(databaseId, body = {}) {
   return notion.request({
-    path: `databases/${databaseId}/query`,
+    path: `/v1/databases/${databaseId}/query`,
     method: "POST",
     body,
   });
@@ -45,14 +45,14 @@ async function queryDatabase(databaseId, body = {}) {
 
 async function getPage(pageId) {
   return notion.request({
-    path: `pages/${pageId}`,
+    path: `/v1/pages/${pageId}`,
     method: "GET",
   });
 }
 
 async function updatePage(pageId, body) {
   return notion.request({
-    path: `pages/${pageId}`,
+    path: `/v1/pages/${pageId}`,
     method: "PATCH",
     body,
   });
