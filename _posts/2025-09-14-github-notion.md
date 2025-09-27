@@ -1,11 +1,11 @@
 ---
 title: github 블로그 및 notion 연동
 date: 2025-09-14 16:52:00 +0900
-lastmod: 2025-09-27 14:29:00 +0900
+lastmod: 2025-09-27 14:42:00 +0900
 categories: [일상, 블로그]
 tags: [일상]
 author: 길민준
-image: {path: /assets/img/for_post/github-notion/cover-02.png, alt: github 블로그 및 notion 연동}
+image: {path: /assets/img/for_post/github-notion/cover-04.png, alt: github 블로그 및 notion 연동}
 ---
 
 
@@ -45,5 +45,8 @@ Notion에서 공부 및 일상을 기록하는 것을 블로그에 다시 올리
 
 
 해당 레파지토리: [https://github.com/mindungil/n2g](https://github.com/mindungil/n2g)
+
+
+블로그 주소: [https://mindungil.github.io/](https://mindungil.github.io/)
 
 
