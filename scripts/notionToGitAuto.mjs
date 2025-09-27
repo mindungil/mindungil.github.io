@@ -21,7 +21,7 @@ const ASSET_DIR = process.env.ASSET_DIR || "assets/img/for_post";
 const DOWNLOAD_COVER =
   (process.env.DOWNLOAD_COVER || "true").toLowerCase() === "true";
 
-const TITLE_KEYS = (process.env.TITLE_KEYS || "제목,Title,Name")
+const TITLE_KEYS = (process.env.TITLE_KEYS || "제목,Title,Name,title,name")
   .split(",")
   .map((s) => s.trim())
   .filter(Boolean);
@@ -77,6 +77,8 @@ function getTitle(props) {
   for (const k of TITLE_KEYS) {
     if (props[k]?.title?.length) return plain(props[k].title);
   }
+  if (props.title?.title?.length) return plain(props.title.title);
+  if (props.name?.title?.length) return plain(props.name.title);
   if (props.Name?.title?.length) return plain(props.Name.title);
   if (props.Title?.title?.length) return plain(props.Title.title);
   return "Untitled";
