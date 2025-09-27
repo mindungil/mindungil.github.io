@@ -306,7 +306,38 @@ async function run() {
       lastmod: lastModForFrontMatter,
       categories: categoriesArr.length ? categoriesArr : undefined,
       tags: tagsArr.length ? tagsArr : undefined,
+      author: "길민준",
     };
+
+    // ─────────────────────────────────────
+    // 📌 image 필드 처리 (있을 때만 추가)
+    // ─────────────────────────────────────
+    let fmImage = null;
+
+    // 1) cover 우선
+    const coverUrl = page.cover?.file?.url || page.cover?.external?.url;
+    if (coverUrl) {
+      const coverName = await saveImageFromUrl(
+        coverUrl,
+        postAssetDirFs,
+        "cover"
+      );
+      if (coverName) {
+        fmImage = { path: `${imgBaseWeb}${coverName}`, alt: title };
+      }
+    }
+
+    // 2) cover가 없으면 본문 첫 이미지 사용
+    if (!fmImage && replacements.size > 0) {
+      const firstLocal = Array.from(replacements.values())[0];
+      fmImage = { path: `${imgBaseWeb}${firstLocal}`, alt: title };
+    }
+
+    if (fmImage) {
+      fmObj.image = fmImage;
+    }
+    // ─────────────────────────────────────
+
     Object.keys(fmObj).forEach((k) => {
       const v = fmObj[k];
       if (
