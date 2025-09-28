@@ -1,7 +1,7 @@
 ---
 title: open_webui
 date: 2025-09-27 17:03:00 +0900
-lastmod: 2025-09-27 17:44:00 +0900
+lastmod: 2025-09-28 09:28:00 +0900
 categories: [오픈소스, 서비스]
 tags: [공부]
 author: 길민준
